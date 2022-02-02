@@ -1,0 +1,6 @@
+1;TV;3;1500
+2;PenDrive ;10;40
+3;notebook;10;2000
+4;Mouse;100;35
+5;Samsung j8;10;1250
+6;Samsung J6;100;1100

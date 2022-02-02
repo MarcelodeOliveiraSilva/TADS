@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="681.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="exemplotrabalho.FXMLDocumentController">
+  <children>
+    <Button fx:id="buttonIncluir" layoutX="24.0" layoutY="179.0" onAction="#handleButtonIncluirAction" text="Incluir Produto" />
+    <Label layoutX="23.0" layoutY="58.0" minHeight="16.0" minWidth="69.0" text="Nº de Jogos" />
+    <MenuBar>
+      <menus>
+        <Menu mnemonicParsing="false" text="Arquivo">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#handleMenuCloseAction" text="Sair" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" text="About" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <Label fx:id="label1" layoutX="114.0" layoutY="58.0" minHeight="16.0" minWidth="69.0" text="Nome da Equipe" />
+    <Label fx:id="label11" layoutX="347.0" layoutY="58.0" minHeight="16.0" minWidth="69.0" text="Pontuação (Máx 30/Min 10)" />
+    <Label fx:id="label111" layoutX="23.0" layoutY="110.0" minHeight="16.0" minWidth="69.0" text="Nº Vitorias" />
+    <Label fx:id="label111l" layoutX="114.0" layoutY="110.0" minHeight="16.0" minWidth="69.0" text="Nº Empates" />
+    <Label fx:id="label111ll" layoutX="215.0" layoutY="110.0" minHeight="16.0" minWidth="69.0" text="Nº Derrotas" />
+    <Label fx:id="label111lll" layoutX="316.0" layoutY="110.0" minHeight="16.0" minWidth="69.0" text="Gols Pro" />
+    <Label fx:id="label111llll" layoutX="386.0" layoutY="110.0" minHeight="16.0" minWidth="69.0" text="Gols Sofridos" />
+    <TextField fx:id="LabelNjogos" editable="false" layoutX="23.0" layoutY="78.0" prefHeight="25.0" prefWidth="81.0" text="10" />
+    <TextField fx:id="LabelEquipe" layoutX="113.0" layoutY="78.0" prefHeight="25.0" prefWidth="221.0" />
+    <TextField fx:id="LabelPontuacao" layoutX="347.0" layoutY="78.0" prefHeight="25.0" prefWidth="78.0" />
+    <TextField fx:id="LabelNvitorias" layoutX="24.0" layoutY="140.0" prefHeight="25.0" prefWidth="78.0" />
+    <TextField fx:id="LabelNempates" layoutX="114.0" layoutY="140.0" prefHeight="25.0" prefWidth="78.0" />
+    <TextField fx:id="LabelNderrotas" layoutX="213.0" layoutY="140.0" prefHeight="25.0" prefWidth="81.0" />
+    <TextField fx:id="LabelGolsPro" layoutX="316.0" layoutY="140.0" prefHeight="25.0" prefWidth="55.0" />
+    <TextField fx:id="LabelGolsContra" layoutX="386.0" layoutY="140.0" prefHeight="25.0" prefWidth="78.0" />
+    <TextArea fx:id="myTA" editable="false" layoutX="23.0" layoutY="220.0" prefHeight="230.0" prefWidth="622.0" />
+    <Button fx:id="buttonCarregar" layoutX="24.0" layoutY="459.0" onAction="#handleButtonCarregarAction" text="Carregar Arquivo" />
+    <Label layoutX="23.0" layoutY="507.0" minHeight="16.0" minWidth="69.0" text="Maior Nº de Vitórias:" />
+    <Label layoutX="23.0" layoutY="547.0" minHeight="16.0" minWidth="69.0" text="Melhor Ataque:" />
+    <Label fx:id="labelMaiorNvitorias" layoutX="201.0" layoutY="503.0" minHeight="16.0" minWidth="69.0" text="&lt;S.N.&gt;">
+      <textFill>
+        <Color blue="0.580" green="0.082" red="0.055" fx:id="x1" />
+      </textFill>
+    </Label>
+    <Label fx:id="labelMaiorNgols" layoutX="201.0" layoutY="543.0" minHeight="16.0" minWidth="69.0" text="&lt;S.N.&gt;" textFill="$x1" />
+    <Label fx:id="labelMenorNgolsSofridos" layoutX="201.0" layoutY="588.0" minHeight="16.0" minWidth="69.0" text="&lt;S.N.&gt;" textFill="$x1" />
+    <Label fx:id="labelMaiorAproveitamento" layoutX="201.0" layoutY="627.0" minHeight="16.0" minWidth="69.0" text="&lt;S.N.&gt;" textFill="$x1" />
+    <Label layoutX="23.0" layoutY="584.0" minHeight="16.0" minWidth="69.0" text="Melhor Defesa:" />
+    <Label layoutX="23.0" layoutY="627.0" minHeight="16.0" minWidth="69.0" text="Maior Aproveitamento:" />
+    <Label id="label1" layoutX="174.0" layoutY="10.0" minHeight="16.0" minWidth="69.0" prefHeight="40.0" prefWidth="339.0" text="Trabalho Marcelo Silva - 11230293" textAlignment="CENTER" textFill="RED">
+      <font>
+        <Font size="22.0" />
+      </font>
+    </Label>
+  </children>
+</AnchorPane>

@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="pt-BR">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="pt-BR">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="pt-BR">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>Contatos das Escolas | SMEd &#8211; Secretaria de Município da Educação</title>
+<link rel="profile" href="https://gmpg.org/xfn/11" />
+<link rel="pingback" href="https://www.riogrande.rs.gov.br/smed/xmlrpc.php">
+<!--[if lt IE 9]>
+<script src="https://www.riogrande.rs.gov.br/smed/wp-content/themes/twentytwelve/js/html5.js?ver=3.7.0" type="text/javascript"></script>
+<![endif]-->
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Feed para SMEd - Secretaria de Município da Educação &raquo;" href="https://www.riogrande.rs.gov.br/smed/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="Feed de comentários para SMEd - Secretaria de Município da Educação &raquo;" href="https://www.riogrande.rs.gov.br/smed/?feed=comments-rss2" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.riogrande.rs.gov.br\/smed\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://www.riogrande.rs.gov.br/smed/wp-includes/css/dist/block-library/style.min.css?ver=5.7' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-theme-css'  href='https://www.riogrande.rs.gov.br/smed/wp-includes/css/dist/block-library/theme.min.css?ver=5.7' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-fonts-css'  href='https://fonts.googleapis.com/css?family=Open+Sans%3A400italic%2C700italic%2C400%2C700&#038;subset=latin%2Clatin-ext&#038;display=fallback' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-style-css'  href='https://www.riogrande.rs.gov.br/smed/wp-content/themes/twentytwelve/style.css?ver=20190507' type='text/css' media='all' />
+<link rel='stylesheet' id='twentytwelve-block-style-css'  href='https://www.riogrande.rs.gov.br/smed/wp-content/themes/twentytwelve/css/blocks.css?ver=20190406' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentytwelve-ie-css'  href='https://www.riogrande.rs.gov.br/smed/wp-content/themes/twentytwelve/css/ie.css?ver=20150214' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/prototype/1.7.1.0/prototype.js?ver=1.7.1' id='prototype-js'></script>
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js?ver=1.9.0' id='scriptaculous-root-js'></script>
+<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/effects.js?ver=1.9.0' id='scriptaculous-effects-js'></script>
+<script type='text/javascript' src='https://www.riogrande.rs.gov.br/smed/wp-content/plugins/lightbox-2/lightbox-resize.js?ver=1.8' id='lightbox-js'></script>
+<script type='text/javascript' src='https://www.riogrande.rs.gov.br/smed/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://www.riogrande.rs.gov.br/smed/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="https://www.riogrande.rs.gov.br/smed/index.php?rest_route=/" /><link rel="alternate" type="application/json" href="https://www.riogrande.rs.gov.br/smed/index.php?rest_route=/wp/v2/pages/301" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.riogrande.rs.gov.br/smed/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.riogrande.rs.gov.br/smed/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.7" />
+<link rel="canonical" href="https://www.riogrande.rs.gov.br/smed/?page_id=301" />
+<link rel='shortlink' href='https://www.riogrande.rs.gov.br/smed/?p=301' />
+<link rel="alternate" type="application/json+oembed" href="https://www.riogrande.rs.gov.br/smed/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2Fwww.riogrande.rs.gov.br%2Fsmed%2F%3Fpage_id%3D301" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.riogrande.rs.gov.br/smed/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=https%3A%2F%2Fwww.riogrande.rs.gov.br%2Fsmed%2F%3Fpage_id%3D301&#038;format=xml" />
+
+	<!-- begin lightbox scripts -->
+	<script type="text/javascript">
+    //<![CDATA[
+    document.write('<link rel="stylesheet" href="https://www.riogrande.rs.gov.br/smed/wp-content/plugins/lightbox-2/Themes/Black/lightbox.css" type="text/css" media="screen" />');
+    //]]>
+    </script>
+	<!-- end lightbox scripts -->
+<script type="text/javascript">var showText='Leia mais';var hideText='Leia menos';</script><script type="text/javascript" src="https://www.riogrande.rs.gov.br/smed/wp-content/plugins/sliding-read-more/jquery-1.4.2.min.js"></script><script type="text/javascript" src="https://www.riogrande.rs.gov.br/smed/wp-content/plugins/sliding-read-more/jslide.js"></script><!-- This code is added by WP Analytify (4.0.0) https://analytify.io/downloads/analytify-wordpress-plugin/ !-->			<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})
+
+			(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+				ga('create', 'UA-24442786-1', 'auto');ga('send', 'pageview');			</script>
+
+			<!-- This code is added by WP Analytify (4.0.0) !--><link rel="icon" href="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2015/08/cropped-brasao_rio_grande-32x32.jpg" sizes="32x32" />
+<link rel="icon" href="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2015/08/cropped-brasao_rio_grande-192x192.jpg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2015/08/cropped-brasao_rio_grande-180x180.jpg" />
+<meta name="msapplication-TileImage" content="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2015/08/cropped-brasao_rio_grande-270x270.jpg" />
+</head>
+
+<body data-rsssl=1 class="page-template-default page page-id-301 page-child parent-pageid-250 wp-embed-responsive custom-font-enabled single-author">
+<div id="page" class="hfeed site">
+	<header id="masthead" class="site-header" role="banner">
+		<hgroup>
+			<h1 class="site-title"><a href="https://www.riogrande.rs.gov.br/smed/" title="SMEd &#8211; Secretaria de Município da Educação" rel="home">SMEd &#8211; Secretaria de Município da Educação</a></h1>
+			<h2 class="site-description">Secretaria de Município da Educação &#8211; Rio Grande &#8211; RS</h2>
+		</hgroup>
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<button class="menu-toggle">Menu</button>
+			<a class="assistive-text" href="#content" title="Pular para o conteúdo">Pular para o conteúdo</a>
+			<div class="nav-menu"><ul>
+<li ><a href="https://www.riogrande.rs.gov.br/smed/">Início</a></li><li class="page_item page-item-38824"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=38824">Fale com a SMEd</a></li>
+<li class="page_item page-item-40 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=40">Gestão Pedagógica</a>
+<ul class='children'>
+	<li class="page_item page-item-38239 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=38239">Atividades 2020</a>
+	<ul class='children'>
+		<li class="page_item page-item-38241"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=38241">Eleição de Diretores e Vice-diretores das Escolas da Rede Municipal</a></li>
+		<li class="page_item page-item-38258"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=38258">Currículo da Língua Brasileira de Sinais – LIBRAS: Componente Curricular como primeira língua</a></li>
+		<li class="page_item page-item-38557"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=38557">Workshop com a escritora Léia Cassol</a></li>
+		<li class="page_item page-item-38648"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=38648">Documento Orientador Curricular do Território Rio-grandino</a></li>
+		<li class="page_item page-item-38750"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=38750">16ª OBMEP</a></li>
+		<li class="page_item page-item-39040"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=39040">Dança Estudantes</a></li>
+		<li class="page_item page-item-39408"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=39408">Planos de Contingência para a COVID-19</a></li>
+		<li class="page_item page-item-39493"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=39493">Processo de Matrículas 2020/2021</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-31208 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=31208">Atividades 2019</a>
+	<ul class='children'>
+		<li class="page_item page-item-31210"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=31210">3ª OMMERG</a></li>
+		<li class="page_item page-item-31566"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=31566">Processo Formativo sobre “Produção de Material Didático”</a></li>
+		<li class="page_item page-item-31588"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=31588">Escola Viva</a></li>
+		<li class="page_item page-item-31726"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=31726">Curso de Práticas Corporais na Educação Infantil</a></li>
+		<li class="page_item page-item-31642"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=31642">Processo Formativo Professores(as) Alfabetizadores(as)</a></li>
+		<li class="page_item page-item-31797"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=31797">Olimpíada de Língua Portuguesa 2019</a></li>
+		<li class="page_item page-item-32045 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=32045">Consulta Popular Rio-grandina</a>
+		<ul class='children'>
+			<li class="page_item page-item-32087"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=32087">Consulta Popular Rio-grandina Formulários</a></li>
+		</ul>
+</li>
+		<li class="page_item page-item-32105"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=32105">Reflexões sobre a aprendizagem do Campo Conceitual Multiplicativo no Ciclo de Alfabetização</a></li>
+		<li class="page_item page-item-32124"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=32124">Formação “Arte Educacional”</a></li>
+		<li class="page_item page-item-32133"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=32133">Formação “Esporte Educacional”</a></li>
+		<li class="page_item page-item-32223"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=32223">6º Festival de Vídeo Estudantil do Rio Grande/RS</a></li>
+		<li class="page_item page-item-32308"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=32308">1ª Conferência Municipal Infantojuvenil de Educação Ambiental &#8211; Pertencer é preciso!</a></li>
+		<li class="page_item page-item-32328"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=32328">Projeto Aluno Monitor 2019</a></li>
+		<li class="page_item page-item-32576"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=32576">Oficinas de Musicalização</a></li>
+		<li class="page_item page-item-33988"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=33988">7º Seminário Municipal de Diversidade e Inclusão</a></li>
+		<li class="page_item page-item-34162 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=34162">Projeto Político Pedagógico e Regimento Escolar das Escolas da Rede Municipal de Educação de Rio Grande</a>
+		<ul class='children'>
+			<li class="page_item page-item-34166"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=34166">PROJETO POLITICO PEDAGÓGICO &#8211; PPP</a></li>
+		</ul>
+</li>
+		<li class="page_item page-item-34248"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=34248">Etapa Sul do 6º Campeonato Gaúcho de Punhobol Escolar</a></li>
+		<li class="page_item page-item-34798"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=34798">Curso de Formação Continuada em Esporte Educacional</a></li>
+		<li class="page_item page-item-34838"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=34838">2ª edição do Festival Paralímpico</a></li>
+		<li class="page_item page-item-34973"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=34973">3ª Edição do Festival “Dança Estudantes”</a></li>
+		<li class="page_item page-item-35082"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=35082">Escuta e Diálogo sobre a escola possível frente aos desafios do século XXI</a></li>
+		<li class="page_item page-item-35382"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=35382">Atividade em homenagem ao Dia do Alfabetizador</a></li>
+		<li class="page_item page-item-36038"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=36038">Referencial Curricular Rio-grandino</a></li>
+		<li class="page_item page-item-36231"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=36231">IV Copa Cidade do Rio Grande de Punhobol Escolar</a></li>
+		<li class="page_item page-item-36372"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=36372">Matrículas 2019/2020</a></li>
+		<li class="page_item page-item-37477"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=37477">3º Seminário de Partilha de Práticas Formativas</a></li>
+		<li class="page_item page-item-36766"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=36766">6º Festival de Esporte Educacional Especial</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-25220 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=25220">Atividades 2018</a>
+	<ul class='children'>
+		<li class="page_item page-item-25218"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=25218">3ª CONAE/2018</a></li>
+		<li class="page_item page-item-25819"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=25819">PNAIC 2018</a></li>
+		<li class="page_item page-item-25867"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=25867">Projeto Aluno Monitor 2018</a></li>
+		<li class="page_item page-item-27096"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=27096">Encontro Formativo “As Contribuições da Neurociência para a Prática Pedagógica”</a></li>
+		<li class="page_item page-item-27230"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=27230">8º COMED</a></li>
+		<li class="page_item page-item-27242"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=27242">5º Festival de Vídeo Estudantil</a></li>
+		<li class="page_item page-item-27667"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=27667">Escritas pelo Rio Grande 2018</a></li>
+		<li class="page_item page-item-27838"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=27838">Curso de Violão</a></li>
+		<li class="page_item page-item-27790"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=27790">Oficinas Anos Iniciais</a></li>
+		<li class="page_item page-item-28043"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=28043">“6º Seminário Municipal de Diversidade e Inclusão”</a></li>
+		<li class="page_item page-item-28163"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=28163">2º Edição do Festival “Dança Estudantes”</a></li>
+		<li class="page_item page-item-28434"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=28434">2ª OMMERG</a></li>
+		<li class="page_item page-item-28444"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=28444">Vivências do Dia do Alfabetizador 2018</a></li>
+		<li class="page_item page-item-28587"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=28587">Literatura Afro-Brasileira</a></li>
+		<li class="page_item page-item-28627"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=28627">Matrículas 2018/2019</a></li>
+		<li class="page_item page-item-29187"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=29187">3ª Copa Cidade do Rio Grande de Punhobol Escolar</a></li>
+		<li class="page_item page-item-29377"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=29377">II Encontro Formativo da EJA</a></li>
+		<li class="page_item page-item-29859"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=29859">4º Seminário Municipal da EJA</a></li>
+		<li class="page_item page-item-30206"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=30206">Revista Digital do Projeto “Escritas pelo Rio Grande: uma cidade para se amar, cuidar e sentir”</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-21088 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=21088">Atividades 2017</a>
+	<ul class='children'>
+		<li class="page_item page-item-21090"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=21090">1ª OMMERG &#8211; 2017</a></li>
+		<li class="page_item page-item-23175"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=23175">Edital de Seleção Pública para Professores Formadores Locais do PNAIC</a></li>
+		<li class="page_item page-item-23192"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=23192">Matrículas 2017/2018</a></li>
+		<li class="page_item page-item-23261"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=23261">Eleição de Diretores e Vice-diretores das Escolas da Rede Municipal 2017</a></li>
+		<li class="page_item page-item-23838"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=23838">1º Festival “Dança Estudantes”</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-18582 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=18582">Atividades 2016</a>
+	<ul class='children'>
+		<li class="page_item page-item-18584 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=18584">7º COMED: Avanços e Desafios do Sistema Municipal de Ensino</a>
+		<ul class='children'>
+			<li class="page_item page-item-18606"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=18606">Inscrições para o 7º COMED: Avanços e Desafios do Sistema Municipal de Ensino</a></li>
+		</ul>
+</li>
+		<li class="page_item page-item-19237"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=19237">Matrículas 2016/2017</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-13363 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=13363">Atividades 2015</a>
+	<ul class='children'>
+		<li class="page_item page-item-12212"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=12212">EDITAL VALDIR CASTRO – Nº 01/2015</a></li>
+		<li class="page_item page-item-12378"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=12378">Inscrições para EBAHL 1/2015</a></li>
+		<li class="page_item page-item-12713"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=12713">Inscrições para EBAHL 2/2015</a></li>
+		<li class="page_item page-item-12474"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=12474">Oficina de Jogos Boole</a></li>
+		<li class="page_item page-item-12519"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=12519">Oficina de Matemática Anos Iniciais e Anos Finais</a></li>
+		<li class="page_item page-item-13361"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=13361">Fórum 127 anos Pós-abolição</a></li>
+		<li class="page_item page-item-12827"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=12827">Oficina de Produção Textual</a></li>
+		<li class="page_item page-item-12856"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=12856">Conferência Municipal de Educação</a></li>
+		<li class="page_item page-item-13325"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=13325">Conversas sobre 11ª OBMEP</a></li>
+		<li class="page_item page-item-13356"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=13356">Oficina de Punhobol</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-12164 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=12164">Atividades 2014</a>
+	<ul class='children'>
+		<li class="page_item page-item-10150"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=10150">6º COMED</a></li>
+		<li class="page_item page-item-11003"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=11003">EDITAL BELAS ARTES – Nº 01/2014</a></li>
+		<li class="page_item page-item-11191"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=11191">EDITAL BELAS ARTES &#8211; Nº 02/2014</a></li>
+		<li class="page_item page-item-11404"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=11404">Matrículas 2014</a></li>
+		<li class="page_item page-item-11447"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=11447">2º Seminário Municipal de Diversidade e Inclusão</a></li>
+		<li class="page_item page-item-11681"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=11681">II Encontro de Educação e Tecnologia</a></li>
+		<li class="page_item page-item-11734"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=11734">Inscrições para Novembro Negro SMEd</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-20528 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=20528">Rio Grande 280 anos</a>
+	<ul class='children'>
+		<li class="page_item page-item-24232"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=24232">Revista Digital &#8220;Escritas pelo Rio Grande: uma cidade para se amar&#8221;</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-286"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=286">Referências</a></li>
+	<li class="page_item page-item-289 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=289">Programas e Projetos</a>
+	<ul class='children'>
+		<li class="page_item page-item-8922"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=8922">Brasil Alfabetizado</a></li>
+		<li class="page_item page-item-8913"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=8913">Mais Educação</a></li>
+		<li class="page_item page-item-8915"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=8915">PDE</a></li>
+		<li class="page_item page-item-8917"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=8917">Projeto Escola ComVida</a></li>
+		<li class="page_item page-item-8911"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=8911">Projeto Escola Viva</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-291 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=291">Núcleos Pedagógicos</a>
+	<ul class='children'>
+		<li class="page_item page-item-416"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=416">Núcleo de Bibliotecas</a></li>
+		<li class="page_item page-item-1561 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=1561">Núcleo de Diversidade e Inclusão</a>
+		<ul class='children'>
+			<li class="page_item page-item-3670"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=3670">Assessoria das Relações Étnico-Raciais</a></li>
+		</ul>
+</li>
+		<li class="page_item page-item-6045"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=6045">Núcleo de Educação de Jovens e Adultos (EJA)</a></li>
+		<li class="page_item page-item-6041"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=6041">Núcleo de Educação do Campo</a></li>
+		<li class="page_item page-item-445 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=445">Núcleo de Educação Infantil</a>
+		<ul class='children'>
+			<li class="page_item page-item-9772"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=9772">Documentos</a></li>
+			<li class="page_item page-item-9480"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=9480">Oficinas Abril 2014</a></li>
+			<li class="page_item page-item-9905"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=9905">Oficinas Maio 2014</a></li>
+			<li class="page_item page-item-10453"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=10453">Oficinas Julho 2014</a></li>
+		</ul>
+</li>
+		<li class="page_item page-item-6043"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=6043">Núcleo de Educação Integral</a></li>
+		<li class="page_item page-item-459 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=459">Núcleo de Ensino Fundamental</a>
+		<ul class='children'>
+			<li class="page_item page-item-6029"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=6029">Anos Iniciais do Ensino Fundamental</a></li>
+			<li class="page_item page-item-467"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=467">Anos Finais do Ensino Fundamental</a></li>
+		</ul>
+</li>
+		<li class="page_item page-item-6047"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=6047">Núcleo de Gestão</a></li>
+		<li class="page_item page-item-6037"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=6037">Núcleo de Iniciação Esportiva</a></li>
+		<li class="page_item page-item-474"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=474">Núcleo de Supervisão e Orientação Escolar</a></li>
+		<li class="page_item page-item-340 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=340">Núcleo de Tecnologia Municipal (NTM)</a>
+		<ul class='children'>
+			<li class="page_item page-item-14701"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=14701">Banco de Projetos do NTM</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+	<li class="page_item page-item-13998"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=13998">Plano Municipal de Educação</a></li>
+</ul>
+</li>
+<li class="page_item page-item-72 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=72">Gestão da Educação</a>
+<ul class='children'>
+	<li class="page_item page-item-9951"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=9951">Núcleo de Alimentação Escolar</a></li>
+	<li class="page_item page-item-34333"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=34333">Arquivo Geral</a></li>
+</ul>
+</li>
+<li class="page_item page-item-6012"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=6012">Gabinete</a></li>
+<li class="page_item page-item-250 page_item_has_children current_page_ancestor current_page_parent"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=250">SMEd</a>
+<ul class='children'>
+	<li class="page_item page-item-301 current_page_item"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=301" aria-current="page">Contatos das Escolas</a></li>
+	<li class="page_item page-item-4295 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4295">Escola em Destaque</a>
+	<ul class='children'>
+		<li class="page_item page-item-4550"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4550">EMEE Maria Lucia Luzzardi</a></li>
+		<li class="page_item page-item-4298"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4298">EMEF Sant&#8217;Ana</a></li>
+		<li class="page_item page-item-4712"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4712">Prof.ª Marília Rodrigues Santos</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-1352"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=1352">Histórico</a></li>
+	<li class="page_item page-item-5943 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=5943">Legislação</a>
+	<ul class='children'>
+		<li class="page_item page-item-328"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=328">Educação Infantil</a></li>
+		<li class="page_item page-item-1106"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=1106">Ensino Fundamental de 9 anos</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-4014 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4014">Professor em Prosa &#038; Verso</a>
+	<ul class='children'>
+		<li class="page_item page-item-4042"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4042">Poesia de Rosângela da Silva Pereira</a></li>
+		<li class="page_item page-item-4016"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4016">Poesias de Leandro Azevedo Vargas</a></li>
+		<li class="page_item page-item-12654"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=12654">Poemas de Lourdes Luciana M. Sampaio</a></li>
+	</ul>
+</li>
+	<li class="page_item page-item-2629"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=2629">Secretários(as) anteriores</a></li>
+	<li class="page_item page-item-4057 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4057">ARL</a>
+	<ul class='children'>
+		<li class="page_item page-item-4256 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4256">Acadêmicos</a>
+		<ul class='children'>
+			<li class="page_item page-item-4244"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4244">Dalva Leal Martins</a></li>
+			<li class="page_item page-item-4348"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4348">Iracema dos Santos Martins</a></li>
+			<li class="page_item page-item-4328"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4328">José Antonio Klaes Roig</a></li>
+			<li class="page_item page-item-4353"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4353">José Paulo Rodrigues Nobre</a></li>
+			<li class="page_item page-item-4273"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4273">Marcos Costa Filho</a></li>
+			<li class="page_item page-item-4359"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4359">Teodolinda Domingas Batezat de Souza</a></li>
+		</ul>
+</li>
+		<li class="page_item page-item-4258 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4258">Membros Correspondentes</a>
+		<ul class='children'>
+			<li class="page_item page-item-4468"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4468">António José Barradas Barroso</a></li>
+			<li class="page_item page-item-4384"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4384">Basilina Pereira</a></li>
+			<li class="page_item page-item-4456"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4456">Caroline Fontoura Danigno</a></li>
+			<li class="page_item page-item-4387"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4387">Elba Khadija</a></li>
+			<li class="page_item page-item-4368"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4368">José Moreira da Silva</a></li>
+			<li class="page_item page-item-4372"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4372">Mirême Miranda Pessôa de Mello Sartori</a></li>
+			<li class="page_item page-item-4376"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4376">Nadir Silveira Dias</a></li>
+			<li class="page_item page-item-4379"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=4379">Ramão Maria Pires</a></li>
+		</ul>
+</li>
+	</ul>
+</li>
+</ul>
+</li>
+<li class="page_item page-item-2278 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=2278">Conselhos</a>
+<ul class='children'>
+	<li class="page_item page-item-9695"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=9695">Conselho de Alimentação Escolar (CAE)</a></li>
+	<li class="page_item page-item-3766"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=3766">Conselho do FUNDEB</a></li>
+	<li class="page_item page-item-3571 page_item_has_children"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=3571">Conselho Municipal de Educação &#8211; CME</a>
+	<ul class='children'>
+		<li class="page_item page-item-17266"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=17266">Regional AZONASUL de CMEs</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+</ul></div>
+		</nav><!-- #site-navigation -->
+
+			</header><!-- #masthead -->
+
+	<div id="main" class="wrapper">
+
+	<div id="primary" class="site-content">
+		<div id="content" role="main">
+
+							
+	<article id="post-301" class="post-301 page type-page status-publish hentry">
+		<header class="entry-header">
+													<h1 class="entry-title">Contatos das Escolas</h1>
+		</header>
+
+		<div class="entry-content">
+			<h1 style="text-align: left;">RELAÇÃO DAS ESCOLAS URBANAS DE ENSINO FUNDAMENTAL DO MUNICÍPIO DO RIO GRANDE</h1>
+<p>&nbsp;</p>
+<p><strong>1-EMEF Admar Corrêa (19/5)</strong><br />
+<a href="https://maps.google.com/maps?saddr=Rua+General+Flores+da+Cunha,+n%C2%BA+116,+Rio+Grande+-+Rio+Grande+do+Sul,+Rep%C3%BAblica+Federativa+do+Brasil&amp;hl=pt-BR&amp;ie=UTF8&amp;sll=-32.048122,-52.081775&amp;sspn=0.001221,0.002411&amp;t=h&amp;mra=ls&amp;z=19" target="_blank" rel="noopener noreferrer">Rua General Flores da Cunha nº 116</a><br />
+Bairro Vila Santa Tereza<br />
+CEP 96201-390<br />
+(53) 3233-1846<br />
+Diretora: Cláudia Figueiredo Antunes Louzada</p>
+<p><strong>2-EMEF Altamir de Lacerda (26/3/1971)</strong><br />
+<a href="https://maps.google.com/maps?saddr=Rua+Dr.+Raul+Pilla+n%C2%BA+2099+Bairro+Vila+Bernardete+CEP+96203-550&amp;hl=pt-BR&amp;ie=UTF8&amp;ll=-32.06404,-52.145955&amp;spn=0.001221,0.002411&amp;sll=-32.064045,-52.145955&amp;sspn=0.00123,0.002411&amp;t=h&amp;mra=ls&amp;z=19" target="_blank" rel="noopener noreferrer">Rua Dr. Raul Pilla nº 2099</a><br />
+Bairro Vila Bernardete<br />
+CEP 96203-550<br />
+(53) 3230-6776<br />
+Diretora: Janice Dias Almeida</p>
+<p><strong>3-EMEF Ana Neri (1º/3)</strong><br />
+<a href="https://maps.google.com/maps?saddr=-32.165702,-52.183345&amp;hl=pt-BR&amp;ll=-32.165666,-52.183181&amp;spn=0.001219,0.002411&amp;sll=-32.165671,-52.183181&amp;sspn=0.001228,0.002411&amp;oq=Rua+Ana+Pernigotti+&amp;t=h&amp;doflg=ptk&amp;mra=mift&amp;mrsp=0&amp;sz=19&amp;z=19" target="_blank" rel="noopener noreferrer">Rua Ana Pernigotti s/nº</a><br />
+Bairro Bolaxa<br />
+CEP 96217-010<br />
+(53) 3236-1790<br />
+Diretora: Arleti Ceroni Truquijo Melo</p>
+<p><strong>4-EMEF Anselmo Dias Lopes (16/9)</strong><br />
+<a href="https://maps.google.com/maps?saddr=Rua+pedro+carneiro+pereira+22&amp;hl=pt-BR&amp;ll=-32.065919,-52.150517&amp;spn=0.00123,0.002411&amp;sll=-32.066322,-52.150883&amp;sspn=0.00123,0.002411&amp;t=h&amp;mra=ls&amp;z=19" target="_blank" rel="noopener noreferrer">Rua Pedro Carneiro Pereira nº 12</a><br />
+Bairro Vila Maria<br />
+CEP 96203-410<br />
+(53) 3293-1288<br />
+Diretora: Roberta Freitas Teixeira</p>
+<p><strong>5-EMEF Assis Brasil (19/4)</strong><br />
+<a href="https://maps.google.com/maps?saddr=R.+Dr.+James+Darcy&amp;hl=pt-BR&amp;sll=-32.081884,-52.191281&amp;sspn=0.004882,0.009645&amp;geocode=FQ16Fv4dtJnj_A&amp;t=h&amp;mra=mr&amp;z=17" target="_blank" rel="noopener noreferrer">Rua Dr. James Darcy s/nº</a><br />
+Bairro Vila Santa Rosa<br />
+CEP 96214-430<br />
+(53) 3235-5052<br />
+Diretora: Josiele da Silva Silveira</p>
+<p><strong>6-Escola de Belas Artes Heitor de Lemos &#8211; EBAHL (1º/4)</strong><br />
+Jockey Club, 194<br />
+Bairro Prado<br />
+CEP 96200-460<br />
+(53) 3230-3498<br />
+Diretora: Marisa da Silva Saad</p>
+<p><strong>7-EMEF Cidade do Rio Grande &#8211; CAIC (20/5/1994)</strong><br />
+Avenida Itália Km 08<br />
+Bairro Carreiros<br />
+CEP 96201-900<br />
+(53)3233-6928 (53) 3233-6657<br />
+Diretora: Liane Orcelli Marques</p>
+<p><strong>8-EMEF Cipriano Porto Alegre (27/6/1939)</strong><br />
+Rua Irmã Otilia, 229<br />
+Bairro América<br />
+CEP 96211-330<br />
+(53) 3232-3451<br />
+Diretora: Rosa Maria Casanova</p>
+<p><strong>9-EMEF Clemente Pinto (12/8)</strong><br />
+<a href="https://maps.google.com/maps?saddr=R.+Dom+Pedro&amp;hl=pt-BR&amp;sll=-32.040629,-52.114664&amp;sspn=0.001221,0.002411&amp;geocode=FZ4ZF_4d6Mrk_A&amp;t=h&amp;mra=mr&amp;z=19" target="_blank" rel="noopener noreferrer">Rua Dom Pedro I nº 444</a><br />
+Bairro Cidade Nova<br />
+CEP 96211-560<br />
+(53) 3232-5071<br />
+Diretora: Rosangela Meireles Costa</p>
+<p><strong>10-EMEF Dolores Garcia (26/3)</strong><br />
+Rua Darcy Cunha Mattos, Parque Guanabara nº 387<br />
+Bairro Cassino<br />
+CEP 96209-190<br />
+(53) 3236-7063<br />
+Diretora: Nara Suzana Pereira da Silva</p>
+<p><strong>11-EMEF Dom Pedro II (26/3/1947)</strong><br />
+Rua Cristóvão Pereira nº 880<br />
+Bairro Vila São João<br />
+CEP 96213-170<br />
+(53) 3230-5384<br />
+Diretora: Laura Conceição Viokboldt Ferreira</p>
+<p><strong>12-EMEF França Pinto (26/4/1954)</strong><br />
+<a href="https://maps.google.com/maps?saddr=R.+Minas+Gerais&amp;hl=pt-BR&amp;sll=-32.044737,-52.121359&amp;sspn=0.001221,0.002411&amp;geocode=FTEKF_4daLDk_A&amp;t=h&amp;mra=mr&amp;z=19" target="_blank" rel="noopener noreferrer">Rua Minas Gerais esq. Rua Dom Bosco</a><br />
+Bairro Miguel de Castro Moreira<br />
+CEP 96211-660<br />
+(53) 3232-6226<br />
+Diretora: Fabiana Simões Machado</p>
+<p><strong>13-EMEF Frederico E. Buchholz (4/6)</strong><br />
+Rua E. U. A. do Norte s/nº<br />
+Bairro Buchholz<br />
+CEP 96212-014<br />
+(53) 3230-1613<br />
+Diretora: Elisabete Domingues Brasil Roig</p>
+<p><strong>14-EMEF Helena Small (10/3)</strong><br />
+<a href="https://maps.google.com/maps?saddr=-32.038205,-52.093448&amp;hl=pt-BR&amp;ll=-32.03818,-52.093442&amp;spn=0.001846,0.003484&amp;sll=-32.038185,-52.093443&amp;sspn=0.001855,0.003484&amp;t=h&amp;doflg=ptk&amp;mra=mift&amp;mrsp=0&amp;sz=19&amp;z=19" target="_blank" rel="noopener noreferrer">Rua Barão de Cotegipe  nº 155</a><br />
+Bairro Centro<br />
+CEP 96200-290<br />
+(53) 3232-7531<br />
+Diretora: Andréa Santiago Escovar</p>
+<p><strong>15-EMEF Jayme Gomes Monteiro (18/3/1980)</strong><br />
+<a href="https://maps.google.com/maps?saddr=R.+Pandi%C3%A1+Cal%C3%B3geras&amp;hl=pt-BR&amp;ie=UTF8&amp;sll=-32.066172,-52.175022&amp;sspn=0.001221,0.002411&amp;geocode=Fba1Fv4dvt_j_A&amp;t=h&amp;mra=mr&amp;z=19" target="_blank" rel="noopener noreferrer">Rua Pandiá Calógeras nº 1299</a><br />
+Bairro PROFILURB<br />
+CEP 96213-020<br />
+(53) 3230-3465<br />
+Diretora: Leiene Maritza Franco Pinto</p>
+<p><strong>16-EMEF João de Oliveira Martins (13/6/1985)</strong><br />
+<a href="https://maps.google.com/maps?saddr=R.+Imo.+Isicio&amp;hl=pt-BR&amp;sll=-32.076741,-52.17886&amp;sspn=0.00122,0.002411&amp;geocode=FfGPFv4dKM7j_A&amp;t=h&amp;mra=mr&amp;z=16" target="_blank" rel="noopener noreferrer">Rua Irmão Isício nº 125</a><br />
+Bairro Castelo Branco<br />
+CEP 96214-150<br />
+(53) 3235-5390<br />
+Diretor: Jorge Antonio de Oliveira Satt</p>
+<p><strong>17-EMEF Manoel Martins Mano (13/3)</strong><br />
+<a href="https://maps.google.com/maps?saddr=R.+Eng.+Jo%C3%A3o+Kramer+de+Lima&amp;hl=pt-BR&amp;ie=UTF8&amp;ll=-32.107352,-52.170897&amp;spn=0.00976,0.01929&amp;sll=-32.107611,-52.175631&amp;sspn=0.00122,0.002411&amp;geocode=FUsSFv4dc-_j_A&amp;t=h&amp;mra=mr&amp;z=16&amp;iwloc=ddw0" target="_blank" rel="noopener noreferrer">Rua Eng. João Kramer de Lima s/nº</a><br />
+Bairro Parque São Pedro<br />
+CEP 96216-230<br />
+(53) 3233-2647<br />
+Diretora: Claudete Nóbrega dos Santos de Ávila</p>
+<p><strong>18-EMEF Maria da Graça Reyes (7/5)</strong><br />
+Rua Principal &#8211; 4ª Seção da Barra<br />
+Bairro Zona Portuária<br />
+CEP 96204-200<br />
+(53) 3234-2138<br />
+Diretora: Liciane Gautério da Costa Fernandes</p>
+<p><strong>19-EMEE Maria Lúcia Luzzardi (26/9)</strong><br />
+<a href="https://maps.google.com/maps?saddr=R.+Mal.+Deodoro&amp;hl=pt-BR&amp;sll=-32.03981,-52.105212&amp;sspn=0.001221,0.002411&amp;geocode=FXccF_4dB_Dk_A&amp;t=h&amp;mra=mr&amp;z=19" target="_blank" rel="noopener noreferrer">Rua Marechal Deodoro nº 595</a><br />
+Bairro Cidade Nova<br />
+CEP 96211-480<br />
+(53) 3232-7300<br />
+Diretora: Bernadete Marin de Oliveira Moraes</p>
+<p><strong>20-EMEF Marília Rodrigues Santos (16/9)</strong><br />
+Rua 3, nº 67<br />
+Bairro Boa Vista<br />
+CEP 96207-170<br />
+(53) 3230-7288<br />
+Diretora: Deise Donatti Maciel</p>
+<p><strong>21-EMEF Mate Amargo (1º/9/1960)</strong><br />
+<a href="https://maps.google.com/maps?saddr=-32.072304,-52.15214&amp;hl=pt-BR&amp;ll=-32.072334,-52.151901&amp;spn=0.00123,0.002411&amp;sll=-32.071793,-52.151837&amp;sspn=0.001221,0.002411&amp;t=h&amp;mra=mr&amp;z=19" target="_blank" rel="noopener noreferrer">Avenida Itália, 1506</a><br />
+Bairro Leônidas<br />
+CEP 96203-000<br />
+(53) 3230-7997<br />
+Diretora: Angelo José Rodrigues Mesa</p>
+<p><strong>22-EMEF Navegantes (12/5)</strong><br />
+<a href="https://maps.google.com/maps?saddr=R.+Vasco+da+Gama&amp;hl=pt-BR&amp;sll=-32.046956,-52.096578&amp;sspn=0.001221,0.002411&amp;geocode=FYoAF_4d2BHl_A&amp;t=h&amp;mra=mr&amp;z=19" target="_blank" rel="noopener noreferrer">Rua Vasco da Gama nº 301A</a><br />
+Bairro Navegantes<br />
+CEP 96202-610<br />
+(53) 3233-1017<br />
+Diretora: Andreia Ferreira da Silva</p>
+<p><strong>23-EMEF Pedro Carlos Peixoto Primo (27/2/1992)</strong><br />
+<a href="https://maps.google.com/maps?saddr=-32.19908,-52.172291&amp;hl=pt-BR&amp;sll=-32.199175,-52.172254&amp;sspn=0.001219,0.002411&amp;t=h&amp;mra=mr&amp;z=19" target="_blank" rel="noopener noreferrer">Avenida Cassino, nº 1316</a><br />
+Bairro Querência<br />
+CEP 96210-000<br />
+(53) 3236-5557<br />
+Diretora: Eleonora Arrieche Marines Pinheiro</p>
+<p><strong>24-EMEF Porto Seguro (5/4)</strong><br />
+<a href="https://maps.google.com/maps?saddr=R.+das+Algas&amp;hl=pt-BR&amp;sll=-32.09907,-52.186448&amp;sspn=0.00122,0.002411&amp;geocode=FcQ0Fv4dYLLj_A&amp;t=h&amp;mra=mr&amp;z=19" target="_blank" rel="noopener noreferrer">Rua das Algas n° 340</a><br />
+Bairro Parque Marinha<br />
+CEP 96215-500<br />
+(53) 3235-2859<br />
+Diretora: Carmen Miranda Gonçalves Leite</p>
+<p><strong>25-EMEF Ramiz Galvão (12/12)</strong><br />
+Vila Mangueira<br />
+(53) 3234-1188<br />
+Diretora: Tanise Silva Reis</p>
+<p><strong>26-EMEF Barão do Rio Branco (17/8/1960)</strong><br />
+<a href="https://maps.google.com/maps?saddr=-32.052985,-52.143039&amp;hl=pt-BR&amp;sll=-32.053083,-52.14294&amp;sspn=0.001221,0.002411&amp;t=h&amp;mra=mr&amp;z=19" target="_blank" rel="noopener noreferrer">Avenida dos Bandeirantes nº 76</a><br />
+Bairro Junção<br />
+CEP 96212-450<br />
+(53) 3230-6317<br />
+Diretora: Mirian Daniela Buchweitz Schlee</p>
+<p><strong>27-EMEF Roque Aíta Jr. (1º/4)</strong><br />
+<a href="https://maps.google.com/maps?saddr=-32.061482,-52.141736&amp;hl=pt-BR&amp;ll=-32.061705,-52.142205&amp;spn=0.001221,0.002411&amp;sll=-32.060573,-52.142103&amp;sspn=0.001221,0.002411&amp;t=h&amp;mra=mr&amp;z=19" target="_blank" rel="noopener noreferrer">Avenida Oswaldo Aranha s/nº</a><br />
+Bairro Vila Bernardete<br />
+CEP 96202-020<br />
+(53) 3230-4611<br />
+Diretora: Ana Lúcia Pereira</p>
+<p><strong>28-EMEF Rui Poester Peixoto (16/3/1973)</strong><br />
+<a href="https://maps.google.com/maps?saddr=R.+Quintino+Bocai%C3%BAva&amp;hl=pt-BR&amp;ie=UTF8&amp;sll=-32.05336,-52.153006&amp;sspn=0.001221,0.002411&amp;geocode=FWbnFv4dYzXk_A&amp;t=h&amp;mra=mr&amp;z=19" target="_blank" rel="noopener noreferrer">Rua Quintino Bocaiúva nº 324</a><br />
+Bairro Vila São Miguel<br />
+CEP 96212-490<br />
+(53) 3230-3008<br />
+Diretora: Elizabete Laurino Guimarães</p>
+<p><strong>29-EMEF Sant&#8217;Ana (6/5/1960)</strong><br />
+<a href="https://maps.google.com/maps?saddr=R.+Col%C3%B4mbia&amp;hl=pt-BR&amp;ie=UTF8&amp;sll=-32.054492,-52.139453&amp;sspn=0.001221,0.002411&amp;geocode=FYTiFv4dvmrk_A&amp;t=h&amp;mra=mr&amp;z=19" target="_blank" rel="noopener noreferrer">Rua Colômbia nº 586</a><br />
+Bairro Junção<br />
+CEP 96212-230<br />
+(53) 3230-2283<br />
+Diretora: Denise Dutra Lopes dos Santos</p>
+<p><strong>30-EMEF São João Batista (8/8/1960)</strong><br />
+<a href="https://maps.google.com/maps?saddr=-32.060735,-52.16168&amp;hl=pt-BR&amp;sll=-32.060901,-52.161697&amp;sspn=0.001221,0.002411&amp;t=h&amp;mra=mr&amp;z=19" target="_blank" rel="noopener noreferrer">Rua Pandiá Calógeras nº 598</a><br />
+Bairro São João<br />
+CEP 96213-020<br />
+(53) 3293-1113<br />
+Diretora: Maria Cristina Sayão Canary</p>
+<p><strong>31-EMEF São Miguel (23/6)</strong><br />
+<a href="https://maps.google.com/maps?saddr=-32.057739,-52.151469&amp;hl=pt-BR&amp;sll=-32.057902,-52.151421&amp;sspn=0.001221,0.002411&amp;t=h&amp;mra=mr&amp;z=19" target="_blank" rel="noopener noreferrer">Rua Pandiá Calógeras nº 148</a><br />
+Bairro Vila São Miguel<br />
+CEP 96212-660<br />
+(53) 3230-5822<br />
+Diretora: Aline Pereira Schimit</p>
+<p><strong>32-EMEF de Tempo Integral Valdir Castro (2/4/2013)</strong><br />
+Rua Juan Llopart s/nº &#8211; Santa Rosa<br />
+CEP: 96214-400<br />
+(53) 3235-6695<br />
+Diretor: Maria das Graças Couto Berndt</p>
+<p><strong>33-EMEF Viriato Corrêa (6/3/1961)</strong><br />
+Rua Almirante Barroso nº 433<br />
+Bairro Getúlio Vargas<br />
+CEP 96201-001<br />
+(53) 3232-5380<br />
+Diretora: <span class="il">Ana</span> Lúcia de Oliveira Pires</p>
+<p><strong>34-EMEF Wanda Rocha Martins (25/10)</strong><br />
+<a href="https://maps.google.com/maps?saddr=R.+Jo%C3%A3o+Batista+Corr%C3%AAa&amp;hl=pt-BR&amp;ie=UTF8&amp;ll=-32.177068,-52.159508&amp;spn=0.001219,0.002411&amp;sll=-32.178291,-52.160473&amp;sspn=0.001219,0.002411&amp;geocode=FfIDFf4dihvk_A&amp;t=h&amp;mra=mr&amp;z=19" target="_blank" rel="noopener noreferrer">Rua Fernando Osório Filho nº 201</a><br />
+Bairro Cassino<br />
+CEP 96205-090<br />
+(53) 3236-5187<br />
+Diretora: Irma Kristina Kerr</p>
+<p><strong>35-EMEF Zelly Pereira Esmeraldo (28/6/2004)</strong><br />
+Rua Dante Dapuzzo s/nº<br />
+Bairro Cidade de Águeda<br />
+CEP 96214-612<br />
+(53) 3232-2123<br />
+Diretora: Jayme Azevedo de Freitas</p>
+<p><strong>36-EMEF Zenir de Souza Braga (11/12)</strong><br />
+<a href="https://maps.google.com/maps?saddr=R.+%C3%82ngelo+Trindade&amp;hl=pt-BR&amp;ie=UTF8&amp;ll=-32.088969,-52.161356&amp;spn=0.00122,0.002411&amp;sll=-32.087606,-52.160602&amp;sspn=0.00122,0.002411&amp;geocode=FWVdFv4dIxXk_A&amp;t=h&amp;mra=mr&amp;z=19" target="_blank" rel="noopener noreferrer">Rua Ângelo Trindade nº 1888</a><br />
+Bairro Trevo<br />
+CEP 96203-160<br />
+(53) 3235-8461<br />
+Diretora: Zenilda Meirelles</p>
+<p><strong>37-EMEF Eliézer de Carvalho Rios</strong><br />
+Rua Erechim, nº 15<br />
+Bairro Cassino &#8211; ABC IX<br />
+CEP 96207-280<br />
+(53) 3236-1201<br />
+Diretora: Josiane David Satt</p>
+<p><strong>38-EMEB Carmen Regina Teixeira Baldino</strong><br />
+Duque de Caxias, 496<br />
+Bairro Centro<br />
+CEP 96211-040<br />
+(53) 3231-6474<br />
+Diretora: Neiva Oliveira Furtado Nunes</p>
+<p><strong>39-Escola Municipal de Iniciação Esportiva Ney Amado Costa</strong><br />
+Avenida Pelotas, S/Nº (Praça Saraiva, ginásio Farydo Salomão)<br />
+Bairro Cidade Nova<br />
+Telefone:(53) 3232-1089<br />
+Diretor: Claudinei Costa</p>
+<p><strong>40-Escola Municipal  para a Diversidade Cultural e Inclusão Escola Viva</strong><br />
+Avenida Portugal, 38<br />
+Bairro Cidade Nova<br />
+Telefone: (53) 3231-4115<br />
+Diretora: Roselis Marques</p>
+<p style="text-align: justify;"><strong>41-Escola Municipal  de Educação de Jovens e Adultos Paulo Freire (EMEJA)</strong><br />
+Sede Mangueira na EMEF Ramiz Galvão &#8211; Vila Mangueira<br />
+Sede Querência na Associação de Moradores do Bairro Querência</p>
+<p style="text-align: justify;">Contato:<br />
+Endereço: Avenida Portugal, 38<br />
+Bairro Cidade Nova<br />
+Telefone: (53) 3231-4115<br />
+Diretora: Flávia Luciane Pinheiro Gonzales</p>
+<h1 style="text-align: left;">RELAÇÃO DAS ESCOLAS DO CAMPO DE ENSINO FUNDAMENTAL DO MUNICÍPIO DE RIO GRANDE</h1>
+<p><strong>1-EMEF Alba Anselmo Olinto (15/7)</strong><br />
+Albardão<br />
+(53) 99935-8909<br />
+Diretora: Edilene Freitas Pouzada</p>
+<p><strong>2-EMEF Alcides Maia (12/12/1942)</strong><br />
+Capão Seco<br />
+(53) 99935-9472<br />
+Diretora: Ângela Maria Miranda Botelho</p>
+<p><strong>3-EMEF Antônio Carlos Lopes (9/7)</strong><br />
+Avenida A  nº 100<br />
+Bairro Quinta<br />
+CEP 96222-000<br />
+(53) 3239-1138<br />
+Diretora: <span id="m_7324529437637528283gmail-docs-internal-guid-f2511dd0-7fff-e0ea-64c1-d13339b51768">Josi Quintana Branco</span></p>
+<p><strong>4-EMEF Apolinário Porto Alegre (11/12)</strong><br />
+Rua Frederico Albuquerque nº 1032<br />
+Bairro Ilha dos Marinheiros<br />
+CEP 96223-000<br />
+(53) 99931-5033<br />
+Diretora: Marilice Oleiro Lopes</p>
+<p><strong>5-EMEF Aurora Ferreira Cadaval (15/3)</strong><br />
+Rua Principal Pedro Cecere nº 1600<br />
+Bairro Taim<br />
+CEP 96200-400<br />
+(53) 99949-0979<br />
+Diretora: Alessandra Furtado</p>
+<p><strong>6-EMEF Bento Gonçalves (18/8)</strong><br />
+Rua Quinta/Coronel Salgado nº 71<br />
+Bairro Quinta<br />
+CEP 96214-000<br />
+(53) 3239-1228<br />
+Diretora: Vera Maria Silveira dos Santos</p>
+<p><strong>7-EMEF Coração de Maria (16/9/1977)</strong><br />
+Porto do Rei/Ilha dos Marinheiros<br />
+(53) 99929-6623<br />
+Diretora: Maria de Fátima Dias</p>
+<p><strong>8-EMEF Coriolano Benício (29/8/1985)</strong><br />
+Travessa 20 nº 107<br />
+Bairro Vila da Quinta<br />
+CEP 96222-000<br />
+(53) 3239-1353<br />
+Diretora: Janete Joanol da Silveira Mastrantonio</p>
+<p><strong>9-EMEF Cristóvão Pereira de Abreu</strong><br />
+Ilha da Torotama<br />
+(53) 99934-2044 (53) 3237-7025<br />
+Diretora: Priscila do Amaral Dias</p>
+<p><strong>10-EMEFTI Franklin Roosevelt (2/6/1986)</strong><br />
+Taim Km 44<br />
+(53) 99955-3458<br />
+Diretora: Michele Freitas de Lima</p>
+<p><strong>11-EMEF Humberto de Campos (16/3/1944)</strong><br />
+Senandes<br />
+(53) 3236-7785<br />
+Diretora: Scheila Azevedo</p>
+<p><strong>12-EMEF Liberato Salzano (5/4/1972)</strong><strong><br />
+</strong>Arraial de Fora<br />
+(53) 99951-2466<br />
+Diretora: Ema Cardoso Amaral</p>
+<p><strong>13-EMEF Prof.ª Luiza Sophia Schmidt Tavares (31/8)</strong><br />
+Est RG 180  nº 01<br />
+(53) 99949-6985<br />
+Diretora: Vivian Gonçalves Paes</p>
+<p><strong>14-EMEF Argemiro Dias de Lima (antiga Machado de Assis) (11/12/1985)</strong><br />
+Palma<br />
+(53) 99932-4816<br />
+Diretora: Débora Pedroso Porto</p>
+<p><strong>15-EMEF Maria Angélica Villanova Leal Campello (22/4/1974)</strong><br />
+Taim &#8211; Km 63<br />
+(53) 99955-7169<br />
+Diretora: Daiane dos Santos Beiersdorf</p>
+<p><strong>16-EMEF Nilo da Fonseca (11/12)</strong><br />
+Senandes<br />
+(53) 9933-4709<br />
+Diretor: Roberta Torres Bugs</p>
+<p><strong>17-EMEF Olavo Bilac (12/12/1941)</strong><br />
+Vila Santo Antônio<br />
+Bairro Quinta<br />
+CEP 96214-000<br />
+(53) 3239-1737<br />
+Diretor: Marília Chaves Carvalho</p>
+<p><strong>18-EMEF Pedro Osório (10/3/1965)</strong><br />
+Cerrito &#8211; Taim<br />
+(53) 99932-3296<br />
+Diretora: Vanessa Ribeiro</p>
+<p><strong>19-EMEF Renascer (13/3/1953)</strong><br />
+Ilha dos Marinheiros<br />
+(53) 99931-5828<br />
+Diretora: Aline Araújo Minasi</p>
+<p><strong>20-EMEF Sylvia Centeno Xavier (2/8)</strong><br />
+Ilha dos Marinheiros<br />
+(53) 99932-2854<br />
+Diretora: Jane Margareth Silveira Alves</p>
+<h1 style="text-align: left;">RELAÇÃO DAS ESCOLAS DE EDUCAÇÃO INFANTIL DO MUNICÍPIO DE RIO GRANDE</h1>
+<p><strong>1-EMEI Alcides Barcelos</strong><br />
+Rua Mascarenhas de Moraes, S/N<br />
+Bairro Centro<br />
+CEP 96201-190<br />
+(53) 3230-2982<br />
+Diretora: Lídia Oliveira Dias</p>
+<p><strong>2-EMEI Casa da Criança Dr. Augusto Duprat</strong><br />
+Rua Gonçalves, 179<br />
+Bairro Cidade Nova<br />
+CEP 96211-070<br />
+(53) 3231-5973<br />
+Diretora: Claudia Franz Vieira</p>
+<p><strong>3-EMEI Castelo Branco (8/11/1993)</strong><br />
+Rua Elberto Madruga nº 111<br />
+Bairro Castelo Branco<br />
+CEP 96214-140<br />
+(53) 3235-5641<br />
+Diretora: Viviane Oliveira Soares</p>
+<p><strong>4-EMEI Daisy Pagel (26/6)</strong><br />
+<a href="https://maps.google.com/maps?saddr=R.+On%C3%B3frio+Aikim&amp;hl=pt-BR&amp;ie=UTF8&amp;sll=-32.067083,-52.181494&amp;sspn=0.001221,0.002411&amp;geocode=FYGtFv4dm8fj_A&amp;t=h&amp;mra=mr&amp;z=16" target="_blank" rel="noopener noreferrer">Rua Onófrio Aikim nº 588</a><br />
+Bairro Nossa Senhora de Fátima<br />
+CEP 96213-440<br />
+(53) 3293-1767<br />
+Diretora: Eloiza Jurema Gama Bastos</p>
+<p><strong>5-EMEI Déborah Thomé Sayão</strong><br />
+ERS 734  nº 7.220<br />
+CEP 96200-000<br />
+Bairro Bolaxa<br />
+(53) 3236-7507<br />
+Diretora: Roselle Rodrigues</p>
+<p><strong>6-EMEI Eva Mann (6/5)</strong><br />
+<a href="https://maps.google.com/maps?saddr=Av.+das+Enseadas&amp;hl=pt-BR&amp;sll=-32.099102,-52.181534&amp;sspn=0.00122,0.002411&amp;geocode=FRYxFv4d4Mjj_A&amp;t=h&amp;mra=mr&amp;z=16" target="_blank" rel="noopener noreferrer">Avenida das Enseadas nº 50</a><br />
+Bairro Parque Marinha<br />
+CEP 96215-410<br />
+(53) 3235-2122<br />
+Diretora: Cláudia Silva</p>
+<p><strong>7-EMEI Fraternidade</strong><br />
+Rua Dom Pedro II, 225<br />
+Bairro Getúlio Vargas<br />
+CEP 96201-010<br />
+(53) 3230-6469<br />
+Diretora: Fabiane de Oliveira Prestes</p>
+<p><strong>8-EMEI Lyons Club (23/2/1986)</strong><br />
+Rua Juan Llopart s/nº<br />
+Bairro Vila Santa Rosa<br />
+CEP 96214-400<br />
+(53) 3235-5055<br />
+Diretora: Joice Borges Abreu</p>
+<p><strong>9-EMEI Maria da Glória P. Pereira (22/12/2010)</strong><br />
+Rua Juan Llopart, s/nº<br />
+Bairro Vila Santa Rosa<br />
+CEP 96214-400<br />
+(53) 3235-1035<br />
+Diretora: Graciele Lopes Ribeiro</p>
+<p><strong>10-EMEI Nilza Alves Gonçalves</strong><br />
+Rua Honorato de Carvalho s/nº<br />
+Bairro América<br />
+CEP 96200-000<br />
+(53) 3230-1569<br />
+Diretora: Roseane Correa Rosenhein</p>
+<p><strong>11-EMEI Oscar Moraes (30/9)</strong><br />
+<a href="https://maps.google.com/maps?saddr=-32.050155,-52.124108&amp;hl=pt-BR&amp;ll=-32.050394,-52.123864&amp;spn=0.001221,0.002411&amp;sll=-32.05138,-52.125288&amp;sspn=0.001221,0.002411&amp;t=h&amp;mra=mr&amp;z=19" target="_blank" rel="noopener noreferrer">Rua Altamir de Lacerda, nº 904</a><br />
+Bairro Hidráulica<br />
+CEP 96211-280<br />
+(53) 3231-4378<br />
+Diretora: Michele da Silva Cedres</p>
+<p><strong>12-EMEI Querência (15/5/2000)</strong><br />
+<a href="https://maps.google.com/maps?saddr=R.+do+Hotel&amp;hl=pt-BR&amp;sll=-32.202836,-52.178342&amp;sspn=0.001219,0.002411&amp;geocode=FYWfFP4dftLj_A&amp;t=h&amp;mra=mr&amp;z=19" target="_blank" rel="noopener noreferrer">Rua do Hotel, nº 25</a><br />
+Bairro Querência<br />
+(53) 3236-2217<br />
+Diretora: Luciane Gomes Ferreira</p>
+<p><strong>13-EMEI Vila da Quinta (28/4)</strong><br />
+Rua João Moreira, nº 204<br />
+Bairro Vila da Quinta<br />
+CEP 96222-000<br />
+(53) 3239-1095<br />
+Diretora: Vani Maria Monteiro da Silva</p>
+<p><strong>14-EMEI Tia Luizinha</strong><br />
+<a href="https://maps.google.com/maps?saddr=-32.061762,-52.166962&amp;hl=pt-BR&amp;sll=-32.061967,-52.167061&amp;sspn=0.001221,0.002411&amp;t=h&amp;mra=mr&amp;z=19" target="_blank" rel="noopener noreferrer">Rua Pandiá Calógeras, 898</a><br />
+Bairro Vila São Miguel<br />
+CEP 96212-660<br />
+(53) 3230-5592<br />
+Diretora: Marzi Ribeiro Vasconcelos</p>
+<p><strong>15-EMEI Verenice Ferreira Gonçalves</strong><br />
+Rua Angelo Trindade s/nº<br />
+Bairro Humaitá<br />
+CEP 96200-000<br />
+Diretora: Chirly Machane César Duarte</p>
+<p><strong>16-EMEI Vovó Zoquinha (29/6/1987)</strong><br />
+Júlio de Castilhos, s/nº<br />
+Bairro Cassino<br />
+(53) 3236-7239<br />
+Diretora: Danielle Paladino Petrone</p>
+<p>&nbsp;</p>
+<h1 style="text-align: left;">RELAÇÃO DAS ESCOLAS CONVENIADAS DO MUNICÍPIO DE RIO GRANDE</h1>
+<p>&nbsp;</p>
+<p><strong>1-Educandário Coração de Maria</strong><br />
+(53) 3232-1081<br />
+Av. Presidente Vargas, 681<br />
+Bairro Parque<br />
+CEP 96202-100<br />
+Diretor: Gilsilene Gil Machado</p>
+<p><strong>2-Escola de Educação Especial José Alvares de Azevedo</strong><br />
+(53) 3232-1777<br />
+Rua Major Miguel Pereira, 70<br />
+Bairro Salgado Filho<br />
+CEP 96201-520<br />
+Diretor: Gláucia de Oliveira Pinho</p>
+<p><strong>3-Escola de Ensino Fundamental Cristo Rei</strong><br />
+(53) 3232-2596<br />
+Rua Barão de Cotegipe, 89<br />
+Bairro Centro<br />
+CEP 96200-290<br />
+Diretor: Oraide Lusa</p>
+<p><strong>4-Escola Jardim do Sol</strong><br />
+(53) 2125-3500<br />
+Rua Dr. Mario Nicola, 111<br />
+Bairro Jardim do Sol<br />
+CEP 96200-000<br />
+Diretor: Claudia Marchand Palacio Gibbon</p>
+<p><strong>5-Escola Média Santa Medianeira</strong><br />
+(53) 3231-5514<br />
+Rua Teixeira Júnior, 667<br />
+Bairro Cidade Nova<br />
+CEP 96540-290<br />
+Diretor: Andréia Messias de Ávila</p>
+<p><strong>6-Creche Mansão da Paz</strong><br />
+(53) 3231-1030<br />
+Av. Almirante Barroso, 365<br />
+Bairro Centro<br />
+CEP 96201-001<br />
+Presidente: Eli Barbosa da Silva</p>
+<p><strong>7-São Luiz Gonzaga</strong><br />
+(53) 3232-9231<br />
+Av. Cidade de Pelotas, 355<br />
+Bairro Cidade Nova<br />
+CEP 96211-000<br />
+Diretor: Lino Mayer</p>
+					</div><!-- .entry-content -->
+		<footer class="entry-meta">
+					</footer><!-- .entry-meta -->
+	</article><!-- #post -->
+				
+<div id="comments" class="comments-area">
+
+	
+	
+	
+</div><!-- #comments .comments-area -->
+			
+		</div><!-- #content -->
+	</div><!-- #primary -->
+
+
+			<div id="secondary" class="widget-area" role="complementary">
+			<aside id="media_image-8" class="widget widget_media_image"><a href="https://www.riogrande.rs.gov.br/smed/?p=39170"><img width="320" height="315" src="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2020/07/20200710-ped-escuta_rio_grande-btn.jpg" class="image wp-image-39180  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" /></a></aside><aside id="media_image-6" class="widget widget_media_image"><a href="https://docs.google.com/forms/d/e/1FAIpQLSd5vWbO56yzH-aPOYwoC5o3kw1SG3cRr1ru0jS-j10eHfzWOw/viewform"><img width="320" height="230" src="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2020/03/20200323-ped-faleb-btn.jpg" class="image wp-image-38829  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" /></a></aside><aside id="search-3" class="widget widget_search"><form role="search" method="get" id="searchform" class="searchform" action="https://www.riogrande.rs.gov.br/smed/">
+				<div>
+					<label class="screen-reader-text" for="s">Pesquisar por:</label>
+					<input type="text" value="" name="s" id="s" />
+					<input type="submit" id="searchsubmit" value="Pesquisar" />
+				</div>
+			</form></aside><aside id="nav_menu-9" class="widget widget_nav_menu"><h3 class="widget-title">Matrículas</h3><div class="menu-matriculas-container"><ul id="menu-matriculas" class="menu"><li id="menu-item-39492" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39492"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=39493">Processo de Matrículas 2021</a></li>
+<li id="menu-item-28972" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-28972"><a target="_blank" rel="noopener" href="https://riogrande.ieducar.com.br/pre-matricula">Transferências para a Rede Municipal de Ensino</a></li>
+</ul></div></aside><aside id="nav_menu-8" class="widget widget_nav_menu"><h3 class="widget-title">Destaques</h3><div class="menu-destaques-container"><ul id="menu-destaques" class="menu"><li id="menu-item-39413" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39413"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?page_id=39408">Planos de Contingência para a COVID-19</a></li>
+<li id="menu-item-39434" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39434"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2021/02/20210222_calendario_letivo_2020.pdf">Calendário Letivo 2020</a></li>
+<li id="menu-item-39404" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39404"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?p=39400">EBAHL Processo Seletivo 2020/2021</a></li>
+<li id="menu-item-39359" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39359"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?p=39355">Edital de Convocação para Eleição Direta de Diretores e Vice-diretores das Escolas da Rede Municipal</a></li>
+<li id="menu-item-39217" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39217"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2020/07/20200724-parecer_00120020.pdf">Parecer 001/2020 &#8211; CME</a></li>
+<li id="menu-item-39172" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39172"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?p=39170">Escuta Rio Grande! – Serviço de acolhimento psicológico</a></li>
+<li id="menu-item-39120" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39120"><a target="_blank" rel="noopener" href="http://www.riogrande.rs.gov.br/portal-educacao/">Portal da Educação</a></li>
+<li id="menu-item-39119" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39119"><a target="_blank" rel="noopener" href="http://www.riogrande.rs.gov.br/portal-educacao/jornadas-formativas/">Jornadas Formativas</a></li>
+<li id="menu-item-39042" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39042"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?page_id=39040">Dança Estudantes</a></li>
+<li id="menu-item-38752" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38752"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?page_id=38750">16ª OBMEP</a></li>
+</ul></div></aside><aside id="nav_menu-2" class="widget widget_nav_menu"><h3 class="widget-title">Núcleo de Diversidade e Inclusão</h3><div class="menu-nucleo-de-diversidade-e-inclusao-container"><ul id="menu-nucleo-de-diversidade-e-inclusao" class="menu"><li id="menu-item-38872" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38872"><a target="_blank" rel="noopener" href="https://docs.google.com/forms/d/e/1FAIpQLScO4Ryw0irTaKGG2wGOqYFJ6Vz2XokbJ0BWPsjMJRk6w742bA/viewform">Inscrição para Monitoria da Inclusão</a></li>
+</ul></div></aside><aside id="nav_menu-4" class="widget widget_nav_menu"><h3 class="widget-title">SMEd</h3><div class="menu-smed-container"><ul id="menu-smed" class="menu"><li id="menu-item-21409" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-21409"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed">Agenda do Secretário</a></li>
+<li id="menu-item-38889" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38889"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?page_id=38824">Fale com a SMEd</a></li>
+<li id="menu-item-39181" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39181"><a href="https://www.riogrande.rs.gov.br/smed/?p=39170">Escuta Rio Grande! – Serviço de acolhimento psicológico</a></li>
+<li id="menu-item-2311" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-301 current_page_item menu-item-2311"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?page_id=301" aria-current="page">Contatos das Escolas</a></li>
+<li id="menu-item-15795" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15795"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2013/04/PROJETO+SMED+2013.pdf">Projeto Pedagógico SMEd 2013</a></li>
+<li id="menu-item-2642" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2642"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?page_id=1352">Histórico da SMEd</a></li>
+<li id="menu-item-2638" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2638"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?page_id=2629">Secretários(as) anteriores</a></li>
+</ul></div></aside><aside id="nav_menu-3" class="widget widget_nav_menu"><h3 class="widget-title">Documentos Pedagógicos</h3><div class="menu-documentos-pedagogicos-container"><ul id="menu-documentos-pedagogicos" class="menu"><li id="menu-item-38879" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38879"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2021/02/20210222_calendario_letivo_2020.pdf">Calendario Letivo 2020</a></li>
+<li id="menu-item-39121" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-39121"><a href="http://www.riogrande.rs.gov.br/portal-educacao/">Portal da Educação</a>
+<ul class="sub-menu">
+	<li id="menu-item-39122" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39122"><a href="http://www.riogrande.rs.gov.br/portal-educacao/jornadas-formativas/">Jornadas Formativas</a></li>
+</ul>
+</li>
+<li id="menu-item-38880" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38880"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?page_id=13998">Plano Municipal de Educação</a></li>
+<li id="menu-item-38881" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38881"><a target="_blank" rel="noopener" href="http://basenacionalcomum.mec.gov.br/#/site/inicio">Base Nacional Comum Curricular</a></li>
+<li id="menu-item-38882" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-38882"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?page_id=38648">Documento Orientador Curricular do Território Rio-grandino</a>
+<ul class="sub-menu">
+	<li id="menu-item-38896" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38896"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?p=38892">Documento Orientador Curricular do Território Rio-grandino: Competências</a></li>
+	<li id="menu-item-38903" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38903"><a href="https://www.riogrande.rs.gov.br/smed/?p=38898">Documento Orientador Curricular do Território Rio-grandino: CULTURA DIGITAL</a></li>
+</ul>
+</li>
+<li id="menu-item-38883" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38883"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?page_id=38258">Currículo da Língua Brasileira de Sinais</a></li>
+<li id="menu-item-38884" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38884"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?page_id=34162">Projeto Político Pedagógico e Regimento Escolar das Escolas da Rede Municipal de Educação de Rio Grande</a></li>
+<li id="menu-item-38885" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38885"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/externo/20181030-cartilha_nanismo.pdf">Cartilha sobre Nanismo</a></li>
+<li id="menu-item-38886" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38886"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?page_id=24232">Revista Digital “Escritas pelo Rio Grande: uma cidade para se amar”</a></li>
+<li id="menu-item-38887" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38887"><a target="_blank" rel="noopener" href="http://www.flipsnack.com/ntmsmed/conectados.html?b=1&#038;p=16">CONECTADOS &#8211; Revista Eletrônica do NTM</a></li>
+</ul></div></aside><aside id="nav_menu-7" class="widget widget_nav_menu"><h3 class="widget-title">Informações</h3><div class="menu-informacoes-container"><ul id="menu-informacoes" class="menu"><li id="menu-item-34336" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34336"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?page_id=34333">Arquivo Geral</a></li>
+<li id="menu-item-38891" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38891"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2020/03/20200325-ordem_de_servico022020.pdf">Ordem de Serviço alusiva à Solicitação de Mudança de Nível no Magistério Municipal</a></li>
+<li id="menu-item-6000" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6000"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2013/04/20130425-horarios_biometria2.pdf">Horários de atendimento da Biometria</a></li>
+<li id="menu-item-12525" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12525"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2020/12/20201230-ficha_solicitac_a_o_vale-transporte_2021.pdf">Ficha de Solicitação de Vale-transporte</a></li>
+<li id="menu-item-12524" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12524"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2020/12/20201230-ficha_cancelamento_do_vale-tranporte_2021.pdf">Ficha de Cancelamento de Vale-transporte</a></li>
+<li id="menu-item-21639" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21639"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2017/05/20170526-declaracao_de_residencia.pdf">Ficha de Declaração de Residência</a></li>
+<li id="menu-item-39554" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-39554"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2021/02/20210204-atestado_frequencia_professor.pdf">Atestado de Frequência do(a) Professor(a)</a></li>
+<li id="menu-item-38506" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38506"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2020/03/20200302-declaracao_salario_familia.pdf">Declaração para o Recadastramento do Salário-família</a></li>
+<li id="menu-item-15797" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15797"><a target="_blank" rel="noopener" href="http://www.fundatec.org.br/home/portal/concursos/index_concursos.php?concurso=302">Edital Concurso Público 02/2014</a></li>
+<li id="menu-item-26746" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-26746"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?page_id=23261">Processo Eleitoral Diretores/as 2017</a></li>
+<li id="menu-item-38877" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38877"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?p=37508">Concursos na Área da Educação 2019</a></li>
+<li id="menu-item-38874" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38874"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?page_id=38241">Eleição de Diretores 2020</a></li>
+<li id="menu-item-38890" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-38890"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2020/03/20200325-ordem_de_servico022020.pdf">Ordem de Serviço alusiva à Solicitação de Mudança de Nível no Magistério Municipal</a></li>
+</ul></div></aside><aside id="nav_menu-5" class="widget widget_nav_menu"><h3 class="widget-title">Conselhos e Legislação</h3><div class="menu-conselhos-container"><ul id="menu-conselhos" class="menu"><li id="menu-item-6087" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6087"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?page_id=3766">Conselho do FUNDEB</a></li>
+<li id="menu-item-6088" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6088"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?page_id=3571">Conselho Municipal de Educação – CME</a></li>
+<li id="menu-item-17269" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17269"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?page_id=17266">Regional AZONASUL de CMEs</a></li>
+<li id="menu-item-12163" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12163"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?page_id=9695">Conselho da Alimentação Escolar &#8211; CAE</a></li>
+<li id="menu-item-6089" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6089"><a target="_blank" rel="noopener" href="https://www.riogrande.rs.gov.br/smed/?page_id=5943">Legislação</a></li>
+</ul></div></aside><aside id="custom_html-2" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><table>
+	<tr><td><div align="center"><a href="https://www.riogrande.rs.gov.br/smed/externo/20200331-ped-doc_educacao_infantil.pdf" target="_blank" rel="noopener"><img src="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2020/03/20200306-ped-orientador-image2.jpg" width="160" height="231" alt=""/></a></div>
+		</td>
+		<td><div align="center"><a href="https://www.riogrande.rs.gov.br/smed/externo/20200324-doc_ensino_fundamental.pdf" target="_blank" rel="noopener"><img src="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2020/03/20200306-ped-orientador-image1.jpg" width="160" height="234" alt=""/></a></div></td></tr>
+</table></div></aside><aside id="text-12" class="widget widget_text">			<div class="textwidget"><p><a href="https://www.riogrande.rs.gov.br/smed/?page_id=38258" target="_blank" rel="noopener"><img loading="lazy" class="aligncenter size-medium wp-image-38260" src="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2020/02/20200205-libras-image1-485x566.jpg" alt="" width="485" height="566" srcset="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2020/02/20200205-libras-image1-485x566.jpg 485w, https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2020/02/20200205-libras-image1-624x728.jpg 624w, https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2020/02/20200205-libras-image1.jpg 707w" sizes="(max-width: 485px) 100vw, 485px" /></a></p>
+</div>
+		</aside><aside id="text-37" class="widget widget_text">			<div class="textwidget"><table><tr><td><div align="center"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=24232" target="_blank" rel="noopener"><img src="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2018/03/20180323-escritas_btn.jpg" width="160" height="228" alt=""/></a>
+</div></td><td>
+<a href="https://www.riogrande.rs.gov.br/smed/?page_id=467" target="_blank" rel="noopener"><img src="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2016/12/20161221-tecendo_saberes_btn2.jpg" width="160" height="226" alt=""/></a></td></tr></table></div>
+		</aside><aside id="text-36" class="widget widget_text">			<div class="textwidget"><table><tr><td><div align="center"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=467" target="_blank" rel="noopener"><img src="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2016/12/20161223-plano_estudos_finais_btn.jpg" width="160" height="227" alt=""/></a></div>
+</td>
+<td>
+<div align="center"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=1561" target="_blank" rel="noopener"><img src="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2016/12/20161213-livreto_btn.jpg" width="160" height="227" alt=""/></a></div>
+</td></tr></table></div>
+		</aside><aside id="text-35" class="widget widget_text">			<div class="textwidget"><table><tr><td><div align="center"><a href="https://www.riogrande.rs.gov.br/smed/externo/20160513-proposta_pedagogica_educacao_infantil.pdf" target="_blank" rel="noopener"><img src="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2016/10/20161014-ppmei-btn160.jpg" width="160" height="233" alt=""/></a>
+</div></td><td>
+<a href="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2016/11/20161130-objetivos_de_aprendizagemanos_iniciais_final_24-11.pdf" target="_blank" rel="noopener"><img src="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2016/11/20161130-objetivos_anos_iniciais_btn.jpg" width="160" height="226" alt=""/></a></td></tr></table></div>
+		</aside><aside id="text-34" class="widget widget_text">			<div class="textwidget"><div align="center"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=14701" target="_blank" rel="noopener"><img src="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2015/08/20150820-botao_banco_projetos.jpg" width="160" height="85" alt=""/></a><a href="https://www.riogrande.rs.gov.br/smed/?page_id=9951" target="_blank" rel="noopener"><img src="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2015/02/20150227-logo_alimentacao_escolar_btn.jpg" width="160" height="85" alt=""/></a></div></div>
+		</aside><aside id="text-42" class="widget widget_text">			<div class="textwidget"><p><iframe loading="lazy" src="https://www.youtube.com/embed/N1j0o3b1krY" frameborder="0" allowfullscreen></iframe></p>
+</div>
+		</aside><aside id="text-39" class="widget widget_text">			<div class="textwidget"><p><iframe loading="lazy" src="https://www.youtube.com/embed/-36uJMAX6vg?rel=0" frameborder="0" allowfullscreen=""></iframe></p>
+</div>
+		</aside><aside id="text-23" class="widget widget_text">			<div class="textwidget"><iframe src="//www.youtube.com/embed/_seBqK-b1DE" frameborder="0" allowfullscreen></iframe></div>
+		</aside><aside id="text-7" class="widget widget_text">			<div class="textwidget"><div align="center"><a href="http://facebook.com/smedrg" target="_blank" rel="noopener"><img src="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2014/03/20140321-logo_facebook.jpg" width="160" height="68" alt=""/></a><a href="https://www.riogrande.rs.gov.br/smed/?p=14923" target="_blank" rel="noopener"><img src="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2015/08/20150831-arl_jovem_escritor_btn2.jpg" width="160" height="68" alt=""/></a></div></div>
+		</aside><aside id="media_image-5" class="widget widget_media_image"><a href="https://www.riogrande.rs.gov.br/smed/?p=34862"><img width="320" height="256" src="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2019/08/20190806-ped-avartea-btn.jpg" class="image wp-image-34868  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2019/08/20190806-ped-avartea-btn.jpg 320w, https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2019/08/20190806-ped-avartea-btn-259x207.jpg 259w" sizes="(max-width: 320px) 100vw, 320px" /></a></aside><aside id="media_image-2" class="widget widget_media_image"><a href="https://www.riogrande.rs.gov.br/smed/?page_id=34162"><img width="320" height="240" src="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2019/06/20190626-ntm-plataforma-btn.jpg" class="image wp-image-34163  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2019/06/20190626-ntm-plataforma-btn.jpg 320w, https://www.riogrande.rs.gov.br/smed/wp-content/uploads/2019/06/20190626-ntm-plataforma-btn-276x207.jpg 276w" sizes="(max-width: 320px) 100vw, 320px" /></a></aside>		</div><!-- #secondary -->
+		</div><!-- #main .wrapper -->
+	<footer id="colophon" role="contentinfo">
+		<div class="site-info">
+									<a href="https://br.wordpress.org/" class="imprint" title="Plataforma de Publicação Pessoal Semântica">
+				Orgulhosamente mantido com WordPress			</a>
+		</div><!-- .site-info -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<script type='text/javascript' src='https://www.riogrande.rs.gov.br/smed/wp-content/themes/twentytwelve/js/navigation.js?ver=20141205' id='twentytwelve-navigation-js'></script>
+<script type='text/javascript' src='https://www.riogrande.rs.gov.br/smed/wp-includes/js/wp-embed.min.js?ver=5.7' id='wp-embed-js'></script>
+</body>
+</html>

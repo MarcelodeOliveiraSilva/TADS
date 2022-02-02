@@ -1,0 +1,115 @@
+Criar um arquivo CSV com os dados de:
+
+1) escolas municipais de ensino fundamental, urbanas e do campo, do município do Rio Grande em https://www.riogrande.rs.gov.br/smed/?page_id=301
+	escola;urbana ou do campo;logradouro;número;bairro;CEP;telefone;diretor
+	
+	wget -q "https://www.riogrande.rs.gov.br/smed/?page_id=301" -O escolas.txt;
+	grep -E -A 6 "\<strong>" escolas.txt |less
+	
+	sem html
+	grep -E -A 6 "\<strong>" escolas.txt |sed -E -e "s/<[^>]*>/;/g"|less
+	
+	substitui 2; por 1
+	grep -E -A 6 "\<strong>" escolas.txt |sed -E -e "s/<[^>]*>/;/g" -e "s/;+/;/g"|less
+	
+	retira ;
+	grep -E -A 6 "\<strong>" escolas.txt |sed -E -e "s/<[^>]*>/;/g" -e "s/;+/;/g"|tr -d [\;]|less
+	
+	aspas no inicio e fim
+	grep -E -A 6 "\<strong>" escolas.txt |sed -E -e "s/<[^>]*>/;/g" -e "s/;+/;/g"|tr -d [\;] | sed -E -e "s/^/\"/" -e "s/$/\"/" |less
+	
+	tudo na mesma linha separado por ;
+	grep -E -A 6 "\<strong>" escolas.txt |sed -E -e "s/<[^>]*>/;/g" -e "s/;+/;/g"|tr -d [\;]| sed -E -e "s/^/\"/" -e "s/$/\"/" | tr "\n" ";"|less
+
+
+    
+2) em https://economia.uol.com.br/cotacoes/
+
+	a) câmbio (dólar comercial, dólar turismo, euro, libra, bitcoin)
+
+		moeda;valor;data
+
+	b) índices econômicos gerais e inflação
+
+		índice;valor;data
+
+	c) commodities
+
+		commodity;variação;valor
+		
+
+3) em https://portoalegre-airport.com.br/pt/viajar/painel-de-voos-horarios-aeroporto-salgado-filho-porto-alegre
+
+    wget -q "https://portoalegre-airport.com.br/pt/viajar/painel-de-voos-horarios-aeroporto-salgado-filho-porto-alegre" -O aeroporto.txt;
+
+	a) embarque de vôos 
+
+		cia;vôo;destino;escalas;agendado;estimado;portão;data;status
+		
+		grep -e "\list-departure" -e "f-logo" aeroporto.txt
+		
+		html identado
+		grep -E -e "list-departure" aeroporto.txt |sed -E -e "s/</\n</g" -e "s/>>/>\n/g" |less
+		
+		salvar em arquivo novo
+		grep -E -e "list-departure" aeroporto.txt |sed -E -e "s/</\n</g" -e "s/>>/>\n/g" > departure.txt; |less
+		
+		
+		pega do novo arquivo filtrando
+		grep -E -e "\label sort" departure.txt |sed -E -e "s/<[^>]*>/;/g" |less
+		
+		
+		
+		
+		grep -e "\list-departure" -e "f-logo" departure.txt
+
+
+
+
+	b) desembarque de vôos 
+
+		cia;vôo;origem;agendado;estimado;data;status
+		
+		grep -E -A 6 "\list-arrival" aeroporto.txt |sed -E -e "s/<[^>]*>/;/g" -e "s/;+/;/g"|less 
+
+
+
+4) em https://tempo.cptec.inpe.br/rs/rio-grande
+
+    a) previsão do tempo por período
+
+		data;temperatura mínima;temperatura máxima;probabilidade de chuva;índice UV;nascer do sol;pôr do sol;período1;previsão1;período2;previsão2;...
+		
+		wget -q "https://tempo.cptec.inpe.br/rs/rio-grande#previsaoTempo" -O tempoperiodo.txt;
+
+	b) previsão do tempo para os próximos dias
+
+		data;temperatura mínima;temperatura máxima;probabilidade de chuva;índice UV;nascer do sol;pôr do sol
+		wget -q "https://tempo.cptec.inpe.br/rs/rio-grande#proximosDias" -O tempoproximos.txt;
+
+	c) previsão do tempo estendida
+
+		data;temperatura mínima;temperatura máxima;probabilidade de chuva;nascer do sol;pôr do sol
+		
+		wget -q "https://tempo.cptec.inpe.br/rs/rio-grande#previsaoEstendida" -O tempoestendida.txt;
+
+5) receitas com maçã em https://www.tudogostoso.com.br
+
+	nome;categoria;tempo de preparo;rendimento;parte1;ingrediente1 da parte1;ingrediente2 da parte1;...;parte2;ingrediente1 da parte2;ingrediente2 da parte2;...;modo de preparo
+	
+	wget -q "https://tempo.cptec.inpe.br/rs/rio-grande#previsaoEstendida" -O tempoestendida.txt
+
+6) baixar todas as páginas de todos os 75 capítulos da hq Lucifer (2000) da editora Vertigo em https://hqdragon.com/
+
+7) horários de saída das estações nos próximos 7 dias das linhas de ônibus em http://horarios.noivadomar.com.br
+
+	linha;data;horário de saída;estação origem;estação destino
+
+8) atores que atuaram em filmes dirigidos por Christopher Nolan em https://www.imdb.com/
+
+	filme;ano;ator
+
+9) carros nacionais do tipo perua ou minivan ano 2021 (gerais, de motor, de transmissão, de suspensão, de freios, de direção, de pneus, de dimensões, de desempenho, de consumo, de autonomia, equipamentos opcionais ou de série de segurança, de conforto e de infotenimento) em https://www.carrosnaweb.com.br/avancada.asp
+
+	código do carro;nome da variável;valor da variável
+

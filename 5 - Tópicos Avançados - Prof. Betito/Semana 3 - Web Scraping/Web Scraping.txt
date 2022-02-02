@@ -1,0 +1,123 @@
+wget
+	obter arquivos da internet
+	-q: quiet, n mostra o que ta fazendo
+	-O: salva o nome que eu definir
+	-r: recursivo, faz da url q eu passei em diante, todos os links
+	-l: define qts niveis eu quero recursivamente
+	-A: o que eu aceito, tipos(jpg,htm etc)
+	-np: no parent, vai do nivel q eu to, pra baixo
+	man get
+
+
+|less /imagem  :procura as imagens do link
+
+
+wget -d "https://ifrs.edu.br/riogrande/" -O /dev/null
+	-d: debug, mostra os cabeçalhos
+	-O: output pra salvar em algum lugar, neste caso /dev/null
+	-O -:mostrar na tela
+
+
+wget -q "https://www.treta.com.br/" -O - | grep -E -o "^imagem= \".*\"" | 
+	cut -d "\"" -f 2 | while read l; do echo $l; wget -q "$l"; done
+
+	-O -: joga pra tela
+	-E: extendido
+	-o: não pega a linha inteira, pega só o que casa
+	greep -E -o: vai pegar somente as imagens
+	-d: delimitator
+	-f 2: até a segunda aspa
+	cut -d -f 2: pega tudo da primeira até a segunda aspas
+	while read 1: para cada linha
+	do echo $1: mostra o que ta baixando
+	wget -q: baixa esse cara
+	
+
+wget -q " " -O atalaia.txt; (grep -E -A 6 "\[sol\]" atalaia.txt | sed -E -n "3,6p"; 
+	grep -E -A 9 "\[vento\]" atalaia.txt | sed -E -n "3,9p") | 
+	tr -d "[\[\]]" | tr "_" " " | sed -E -e "s/^[ \t]+/\"/" -e "s/ => /\";\"/"  -e "s/$/\"/" 
+	-e "s|([0-9]{2})/([0-9]{2})/([0-9]{4}) ([0-9]{2}):([0-9]{2})|\3-\2-\1 \4:\5|" > previsao.txt; 
+	mv previsao.txt previsao_`grep -E "timestamp" previsao.txt | cut -d ";" -f 2 | tr -d "[\"\-:]" | tr " " "_"`.csv; 
+	rm atalaia.txt
+	
+	grep -E -A 6 "\[sol\]" - quando achar "" vai mostrar 6 linhas
+	sed -E -n "3,6p" -mostra só da linha 3 a 6
+	tr -d "[\[\]]" - retira colchetes
+	tr "_" " " - substitui sublinhado por espaço
+	sed -E -e "s/^[ \t]+/\"/" -e "s/ => /\";\"/" -qlqr espaço ou tabulação troca por aspas
+	-e "s/$/\"/" -adiciona aspas no fim
+	grep -E "timestamp" previsao.txt -pega só linha que interessa(entre aspas)
+	cut -d ";" -f 2 -depois do q esta entre aspas, pega até o segundo campo
+	tr -d "[\"\-:]" -remove aspas, hifen e dois pontos
+	tr " " "_" -substitui espaço por underline
+	`x` - entre crazes subtitui pelo resultado ex previsao_20220222.csv
+	rm deleta o arquivo
+
+
+n=covid_rs_`date "+%Y%m%d"`; wget -q "https://ti.saude.rs.gov.br/covid19/" -O - | sed -E -e "s/</\n</g" -e "s/>/>\n/g" > covid_rs.txt;
+	grep -E -o "GraphObitosDiario_labels = [^;]*;" covid_rs.txt | grep -E -o "\[.*\]" | tr -d "[\[\]']" | tr "," "\n" | 
+	sed -E "s|([0-9]{2})/([0-9]{2})/([0-9]{2})|20\3-\2-\1|" | cat -n > labels.txt; 
+	grep -E -o "GraphObitosDiario_values = [^;]*;" covid_rs.txt | grep -E -o "\[.*\]" | 
+	tr -d "[\[\]]" | tr "," "\n" | cat -n > values.txt; 
+	join labels.txt values.txt | 
+	cut -d " " -f 2- | sed -E -e "s/^/\"/" -e "s/ /\";\"/" -e "s/$/\"/" > $n.csv; rm covid_rs.txt labels.txt values.txt; 
+	
+	cat $n.csv | tr -d "\"" | tr ";" " " | while read l; do v=( `echo $l` ); 
+	echo $((((`date -d "${v[0]}" "+%s"`-`date -d "2020-01-01" "+%s"`))/86400)) ${v[1]}; done > covid.dat; 
+	echo "set terminal png size 1024,768; set output \"$n.png\"; set autoscale fix; set grid; plot \"covid.dat\" 
+	using 1:2 with lines linecolor rgb \"#FF0000\" linewidth 3 title \"obitos/dia\"; quit" | 
+	gnuplot; rm covid.dat
+
+
+	sed -E -e "s/</\n</g" -e "s/>/>\n/g" -localizar menor(<) e coloca enter depois de todos os menores.
+						-mesma coisa pra maior. g = globar pra continuar pq estao na mesma linha
+	grep -E -o "GraphObitosDiario_values = [^;]*;" -pega tudo q n é ; repetidos varias vezes e insere um ponto e virgula no final
+	grep -E -o "\[.*\]" -pega só o q ta entre colchetes
+	tr -d "[\[\]']" -tira os colchetes
+	tr "," "\n" -em cada virgula dá um enter
+	cat -n -numera as linhas
+	repete a mesma coisa para os valores
+	join labels.txt values.tx -deu join pelo cat -n q enumerou as colunas, o join juntou pela enumeração igual
+	cut -d " " -f 2- -pega campo 2 em diante depois do espaço
+	sed -E -e "s/^/\"/" -substitui inicio da linha por aspas
+	-e "s/ /\";\"/" -substitui espaço do meio por aspas, ponto e virgula, aspas
+	-e "s/$/\"/" -substitui fim da linha por aspas
+	n=covid_rs_`date "+%Y%m%d"` -declarando variavel n com a data atual(entre ``)
+	cat $n.csv -salva o arquivo com a variavel n
+	
+	
+
+url="https://www.carrosnaweb.com.br/fichadetalhe.asp?codigo=15209"; 
+	echo -e "urbano\nrodoviario\nurbano\nrodoviario" | cat -n > labels.txt; wget -q -U Firefox "$url" -O - | 
+	tr -d "[\r\n]" | sed -E -e "s/<[^>]*>/;/g" -e "s/[ \t]+/ /g" -e "s/ ?; ?/;/g" -e "s/;+/;/g" | 
+	tr ";" "\n" | grep -E -a -A 6 "^Consumo$" | grep -E -i "km/l" | cat -n > values.txt; 
+	join labels.txt values.txt | cut -d " " -f 2- | sed -E -e "s/^/\"/" -e "s/ /\";\"/" -e "s/$/\"/" > 
+	consumo_`echo "$url" | cut -d "=" -f 2`.csv; 
+	rm labels.txt values.txt
+
+	echo -e "urbano\nrodoviario\nurbano\nrodoviario"  -cada \ é um enter, ou seja, vai mostrar 4 labels
+	tr -d "[\r\n]" -\r e \n(enters) e deixa tudo numa linha só
+	sed -E -e "s/<[^>]*>/;/g" -subtituir qlqr coisa q n é um fecha tag por ponto e virgula
+	-e "s/[ \t]+/ /g" -troca sequencias de espaços e tabulaçoes por 1 unico espaco
+	-e "s/ ?; ?/;/g" -substitui espaços antes ou depois do ponto e virgula
+	-e "s/;+/;/g" -retira ponto e virgulas consecutivos tranformando em um só
+	tr ";" "\n" -substitui ; por quebra de linha
+	grep -E -a -A 6 "^Consumo$" -qd acha consumo, imprime proximas 6 linhas
+			-a :força o arquivo a ignorar acentos
+	grep -E -i "km/l" -pega somente as linhas q tem o texto entre ""
+	join pelo cat -n
+	cut -d " " -f 2-  -pega somente os campos do 2 em diante depois do primeiro espaço
+	sed -E -e "s/^/\"/" -insere aspas no inicio
+	-e "s/ /\";\"/" -insere aspas, ponto e virgula, aspas
+	-e "s/$/\"/"  -insere aspas no fim
+	consumo_`echo "$url" | cut -d "=" -f 2  -printa a url pegando o campo 2 e nomeia o csv
+	
+
+
+====================================================================================================
+
+wget
+--referer="http://www.site.com/"
+--user-agent="Mozilla/5.0 (X11; Linux x86_64; rv:80.0) Gecko/20100101 Firefox/80.0"
+--header="Cookie:SESSID=6d8cf01a260b360c34d350a57a3485c3"
+--post-data="login_username=ADMIN&login_password=123456"

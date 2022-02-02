@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ExemploTrabalho.jnlp">
+  <information>
+    <title>ExemploTrabalho</title>
+    <vendor>eduardo</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ExemploTrabalho.jar" size="5469" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ExemploTrabalho" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="exemplotrabalho.ExemploTrabalho"  name="ExemploTrabalho" />
+  <update check="always"/>
+</jnlp>

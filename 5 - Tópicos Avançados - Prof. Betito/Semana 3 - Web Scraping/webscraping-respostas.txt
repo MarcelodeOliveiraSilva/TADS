@@ -1,0 +1,60 @@
+Criar um arquivo CSV com os dados de:
+
+1) escolas municipais de ensino fundamental, urbanas e do campo, do município do Rio Grande em https://www.riogrande.rs.gov.br/smed/?page_id=301
+
+	escola;urbana ou do campo;logradouro;número;bairro;CEP;telefone;diretor
+
+	cat escola.html | tr -t "\n" " " | grep -oP '(?<=<div class="entry-content">)((?!</div>).)+' | sed -E -e "s/<h1/\n/g" | sed "1d" | head -2 | sed -E "1 s/<p[^>]*><strong>/\n<urbana>/g; 2 s/<p[^>]*><strong>/\n<campo>/g" | grep -E "(<urbana>|<campo>)" | sed -E -e "s/<(a|span)[^>]+>//" -e "s/<\/(a|span)>//" -e "s/&#8211;/-/g" -e "s/&#8217;/'/g" -e "s/<(campo|urbana)> *[0-9]+ *- *([^(]+)[^<]+<\/strong><br \/>/\2;\1||/g" -e "s/\|\|*([^<]+)<br \/>([^<]+)<br \/> *CEP *([^<]+)<br \/>([^<]+)<br \/> */;\1;\2;\3;\4;/g" -e "s/[^ ][^-] (Km|nº) ([0-9]+)/ - \1 \2/" -e 
+
+
+
+ -e "s/\|\|* *([^<]+) *<br \/> *([^<]+) *<br \/> *([^<]+) *<br \/> */;\1;\2;;\3;/" -e ""  -e "s/Diretora?: *([^<]+) *<\/p> */\1/"
+
+2) em https://economia.uol.com.br/cotacoes/
+
+	a) câmbio (dólar comercial, dólar turismo, euro, libra, bitcoin)
+
+		moeda;valor;data
+
+	wget -q "https://economia.uol.com.br/cotacoes/" -O - | sed -E "s/>/>\n/g" | grep -A 5 "data-url" | sed -e "/data-url/ { n;N;N;N;d}" | tr '\n' ' ' | sed -E "s/--/\n/g" | sed -E 's/.+data-id="([^"]+)".+> ([^<]+)<\/label>.*/\1;\2/' | sort -ug | while read line 
+	do
+		id=$(echo $line | cut -d ";" -f 1)
+		moeda=$(echo $line | cut -d ";" -f 2)
+
+		wget -q "https://api.cotacoes.uol.com/currency/interday/list/week/?format=JSON&fields=bidvalue,askvalue,maxbid,minbid,variationbid,variationpercentbid,openbidvalue,date&size=10&currency=${id}&" -O - | sed -E -e "s/\},/\n/g" | sed -E "s/.+askvalue\":([^,]+).+date\":\"([0-9]{8}).+/${moeda};\1;\2/g"
+		printf "\n"
+	done
+
+
+	b) índices econômicos gerais e inflação
+
+		índice;valor;data
+	
+	grep -oP '<section class="financial-indicators">((?!</section>).)+' cotacoes.html | sed -E 's/<\/table>/\n/g' | head -n 2 | sed -E -e "s/(<\/tr>)|<tbody>/\n/g" | sed -E -e '/thead/d' -e 's/(<[a-z]+)[^>]*/\1/g' -e "s/<span>(.+)<\/span>/\1/g" -e "s/ +</</g" -e "s/> +/>/g" -e "s/<tr><td>([^<]+)<\/td><td>([^<]+)<\/td><td>([^<]+).+/\1;\2;\3/" -e "/<.+>/d"
+
+
+	c) commodities
+
+		commodity;variação;valor
+
+	grep -oP '<section class="financial-indicators">((?!</section>).)+' cotacoes.html | sed -E 's/<\/table>/\n/g' | sed -n '3 p' | sed -E -e "s/(<\/tr>)|<tbody>/\n/g" | sed -E -e '/thead/d' -e 's/(<[a-z]+)[^>]*/\1/g' -e "s/<span>(.+)<\/span>/\1/g" -e "s/ +</</g" -e "s/> +/>/g" -e "s/<tr><td>([^<]+)<\/td><td>([^<]+)<\/td><td>([^<]+).+/\1;\2;\3/" -e "/<.+>/d"
+
+
+
+
+3) em https://portoalegre-airport.com.br/pt/viajar/painel-de-voos-horarios-aeroporto-salgado-filho-porto-alegre
+
+	a) embarque de vôos 
+
+		cia;vôo;destino;escalas;agendado;estimado;portão;data;status
+	
+	grep -oP '<div id=list-departure .+id=list-arrival' voos.html | sed -E 's/(<div class="flight flight-box)/\n\1/g' | grep -oP '<div class="flight.+</span>(</div>){5}' | sed -E -e 's/<\/?span>//g' -e 's/<div><div id=[^ ]+ class="mobile-status.+//' -e 's/.+src=([^>]+)>.+f-flightnumber>([^<]+).+f-airport>([^<]+)(.+)f-scheduledtime>([^<]+).+f-estimatedtime>([^<]+).+f-gate>([^<]*).+f-flightdate>([^<]+).+f-status>([^<]+).+/\1;\2;\3;\4;\5;\6;\7;\8;\9/' -e 's/<\/?div[^>;]*>?//g' -e 's/Escalas://'
+
+	b) desembarque de vôos 
+
+		cia;vôo;origem;agendado;estimado;data;status
+
+	grep -oP '<div id=list-arrival .+</section>' voos.html | sed -E 's/(<div class="flight flight-box)/\n\1/g' | grep -oP '<div class="flight.+</span>(</div>){5}' | sed -E -e 's/<\/?span>//g' -e 's/<div><div id=[^ ]+ class="mobile-status.+//' -e 's/.+src=([^>]+)>.+f-flightnumber>([^<]+).+f-airport>([^<]+).+f-scheduledtime>([^<]+).+f-estimatedtime>([^<]+).+f-flightdate>([^<]+).+f-status>([^<]+).+/\1;\2;\3;\4;\5;\6;\7/'
+
+
+

@@ -1,0 +1,243 @@
+Guias:
+Guia Rápido de Comandos do Linux
+Canivete Suíço do Shell
+Expressões Regulares
+
+Livros:
+Bash Guide for Beginners: 2.2, 3.2, 3.3, 3.4, 4, 5, 7, 8.1.2, 8.2.1, 9, 10
+GNU/Linux Command Line Tools Summary: 6, 7.1, 7.2, 11.2, 11.3, 11.4, 11.6, 13.2, 18
+Advanced Bash-Scripting Guide: 2, 3, 4, 5, 7, 8, 10, 11, 12, 13, 20, 26, 27
+Dominando o Sed
+
+====================================================================================================
+
+sed
+
+endereçamento
+numero #$ para última linha
+/padrao/
+numero,numero
+numero,/padrao/
+/padrao/,numero
+/padrao/,/padrao/
+
+comandos
+a	adiciona uma linha contendo um texto depois de uma linha
+i	adiciona uma linha contendo um texto antes de uma linha
+d	apaga uma linha
+p	mostra uma linha
+s	procura e substitui
+n	avança uma linha
+q	sai
+
+flags do comando s
+g	global, em todas as ocorrências de uma linha
+I	ignore case
+
+sed -E -i "5 d" arquivo
+sed -E -i "/padrao/ d" arquivo #todas as linhas que contém o padrão
+sed -E -n "/padrao/I p" arquivo
+sed -E -i "3,$ d" arquivo
+sed -E -i "s/padrao1(padrao2)padrao3/\1/Ig" arquivo
+sed -E -i "/padrao1/ s/padrao2/valor2/" arquivo
+sed -E -i "s|01/01/2000|abc|" arquivo
+sed -E -i -e "s/\</valor1/g" -e "s/\>/valor2/g" arquivo
+sed -E -i "2 a valor" arquivo
+sed -E -i "2 i valor" arquivo
+sed -E -i "/padrao1/! s/padrao2/valor2/" arquivo
+sed -E -i "/padrao1/ { n; n; s/padrao2/valor2/; }" arquivo
+
+====================================================================================================
+
+sintaxe básica
+	commando -opções argumentos
+
+shabang
+	#!/bin/bash
+
+comentários
+	#
+
+coringas em ls, cp, mv, rm
+	*, ?, [chars], [!chars]
+
+redirecionamento de entrada
+	comando < arquivo #"arquivo" para quando o nome do arquivo conter espaço
+
+redirecionamento de saída
+	comando > arquivo #arquivo.$$.$RANDOM.tmp
+
+redirecionamento incremental de saída
+	comando >> arquivo
+
+dutos: redirecionamento da saída de um comando como entrada do próximo
+	com arquivos intermediários
+		comando1 arquivo1 > arquivo2
+		comando2 arquivo2 > arquivo3
+	com dutos
+		comando1 arquivo1 | comando2 > arquivo3
+
+variáveis
+	variavel1=valor #apenas inteiro, string e array
+	variavel2="valor" #"valor" para quando o valor conter espaço
+	variavel3="$variavel1 $variavel2"
+	variavel4="texto${variavel1}texto"
+
+strings
+	variavel=abc #0: a, 1: b, 2: c
+	echo ${#variavel} #tamanho
+	echo ${variavel:inicio} #substring
+	echo ${variavel:inicio:quantidade} #substring
+	echo ${variavel#padrao} #remove menor ocorrência do padrão no início
+	echo ${variavel##padrao} #remove maior ocorrência do padrão no início
+	echo ${variavel%padrao} #remove menor ocorrência do padrão no fim
+	echo ${variavel%%padrao} #remove maior ocorrência do padrão no fim
+	echo ${variavel/padrao/valor} #substitui a 1a ocorrência do padrão
+	echo ${variavel//padrao/valor} #substitui todas ocorrências do padrão
+
+arrays
+	array=( valor1 valor2 valor3 ) #0: valor1, 1: valor2, 2: valor3
+	array[15]=valor4
+	echo ${array[0]}
+	echo ${array[@]}
+	echo ${array[@]:inicio}
+	echo ${array[@]:inicio:quantidade}
+
+expanção de chaves
+	echo texto{1,2,3}texto
+	echo texto{1..10}texto
+	echo texto{1..10..2}texto
+	echo texto{A,B,C}texto
+	echo texto{A..Z}texto
+	echo texto{$variavel1..$variavel2}texto
+
+expansão aritmética
+	variavel2=$(((($variavel1*2))+3)) #$(( (( $variavel1 * 2 )) + 3 ))
+
+expansão de comandos
+	variavel1=`commando1 | comando2`
+	variavel2=$(commando1 | comando2)
+	variavel3="texto `commando1 | comando2`"
+	variavel4="texto $(commando1 | comando2)" 
+	variavel5=( `comando1 | comando2` )
+	comando1 `echo a b` #"a", "b"
+	comando1 `echo "a b"` #"a", "b"
+	comando1 "`echo a b`" #"a b"
+
+quoting
+	echo texto   $variavel   $((1+2))   `comando1`   $(comando2)
+	echo "texto   $variavel   $((1+2))   `comando1`   $(comando2)"
+	echo 'texto   $variavel   $((1+2))   `comando1`   $(comando2)'
+	caracteres escapados
+		\$, \`, \", \\
+
+exit status
+	sucesso
+		0, true
+	falha
+		1, false
+	erro
+		outros
+	último exit status
+		$? 
+
+comando test ou []
+	test -n "$variavel" #"$variavel" para quando variavel= ou variavel=""
+	test "`comando1 | comando2`" = "texto", 
+	test "$(comando1 | comando2)" = "texto"
+	test $variavel -eq 10
+	test $variavel1 -gt 10 -a $variavel1 -lt 20
+	test -f arquivo
+
+listas de comandos
+	;
+		comando1 | comando2; comando3 | comando4
+	&&
+		comando1 | comando2 && comando3 | comando4
+	||
+		comando1 | comando2 || comando3 | comando4
+
+	variavel1=[ -z "$variavel" ] && valor1 || valor2
+	! grep -q -i "$variavel" arquivo && exit #grep -q -i "$variavel" arquivo || exit
+
+if
+	if comando1
+	then
+		comando2
+		comando3
+	else
+		comando4
+		comando5
+	fi #> arquivo, | comando6 | comando7
+
+	read numero
+	if [ $(($numero%2)) -eq 0 ]
+	then
+		echo par
+	else
+		echo impar
+	fi
+
+	read texto
+	if [ "$texto" = "texto" ]
+	then
+		echo igual
+	else
+		echo diferente
+	fi
+
+	if grep -q -i "texto" arquivo
+	then
+		echo contem
+	else
+		echo nao contem
+	fi
+
+while
+	while comando1
+	do
+		comando2
+		comando3
+	done #> arquivo, | comando4 | comando5
+
+	while true
+	do
+		read variavel
+		grep -q -i "$variavel" arquivo || exit
+	done
+
+	numero=0
+	while [ $numero -lt 10 ]
+	do
+		echo $numero
+		number=$(($numero + 1))
+	done
+
+	cat arquivo | while read linha
+	do
+		echo $linha
+	done
+
+for
+	for variavel in valor1 valor2 valor3
+	do
+		comando1
+		comando2
+	done #> arquivo, | comando3 | comando4
+
+	for numero in 0 1 2 3 4 5 6 7 8 9
+	#for numero in {0..9}
+	#for numero in `seq 0 9`
+	do
+		echo $numero
+	done
+
+	for texto in um dois tres quatro cinco
+	do
+		echo $texto
+	done
+
+	for arquivo in ./*.txt
+	do
+		echo $arquivo
+	done

@@ -1,0 +1,45 @@
+https://en.wikibooks.org/wiki/Regular_Expressions/POSIX_Basic_Regular_Expressions
+https://en.wikibooks.org/wiki/Regular_Expressions/POSIX-Extended_Regular_Expressions
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions/Cheatsheet
+
+https://regex101.com/
+https://regexper.com/
+
+https://www.regexlib.com
+
+				en-Us		pt-Br
+[:alpha:]		[A-Za-z]	[A-ZÀÁÂÃÄÇÈÉÊẼË...a-zàáâãäçèéêẽë...]
+
+inteiro		[0-9]+
+real		[0-9]*\.?[0-9]+
+literal		[a-z]+( [a-z]+)*
+nome		[a-z]+( [a-z]+)+
+data		(19|2[0-9])[0-9]{2}-(0?[1-9]|1[0-2])-(0?[1-9]|[12][0-9]|3[01])
+hora		([01]?[0-9]|2[0-3])(:[0-5]?[0-9]){1,2}
+e-mail		[a-z0-9]+([_\.][a-z0-9]+)*@[a-z0-9]+([_\.][a-z0-9]+)*\.[a-z]{3}(\.[a-z]{2})?
+telefone	(0[0-9]{2})?[0-9]{8,9}
+UF			(AC|AL|AM|AP|BA|CE|DF|ES|GO|MA|MG|MS|MT|PA|PB|PE|PI|PR|RJ|RN|RO|RR|RS|SC|SE|SP|TO)
+
+12/12/1234			([0-9]{1,2})/([0-9]{1,2})/([0-9]{4})			\3-\2-\1
+123.456.789,01		([0-9]+)\.([0-9]+)\.([0-9]+),([0-9]+)			\1\2\3\.\4
+(12) 1234-1234		\(([0-9]{2})\) ([0-9]{4})-([0-9]{4})			\1\2\3
+(12) 1 1234-1234	\(([0-9]{2})\) ([0-9]) ([0-9]{4})-([0-9]{4})	\1\2\3\4
+
+(12) 1234-1234		
+(12) 1 1234-1234	[ ()-]?([0-9]{2})[ ()-]*([0-9]?)[ ()-]?([0-9]{4})[ ()-]?([0-9]{4})	\1\2\3\4
+123.456.789,01		(([0-9]+)\.)?(([0-9]+)\.)?([0-9]+)(,([0-9]+))?							\2\4\5\.\7
+   abc   def   		 *([^ ]+) *([^ ]+) *													\1 \2
+<tag attr="abc">	<[^"]*"([^"]*)">														\1
+<tag>abc</tag>		<[^>]*>([^<]*)</[^>]*>													\1
+
+<tag>abc</tag>		<([a-z]+)[^>]*>(.*)</\1>												\2
+senha forte			^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%&*_+=-]).{6,}$
+
+https://linux.die.net/man/1/grep
+https://linux.die.net/man/1/sed
+
+echo "   abc   def   " | sed -E -e "s/ +/ /g" -e "s/^ //" -e "s/ $//"
+
+https://alf.nu/RegexGolf

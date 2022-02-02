@@ -1,0 +1,8 @@
+﻿Instruções para rodar os exemplos desta aula
+
+- Baixe o arquivo dumpLoja.sql
+- crie no postgres um banco de dados chamado “loja”
+- pelo postgres entre no banco loja
+- execute o SQL do arquivo dumpLoja.sql (pode-se usar o recurso importar do phppgadmin)
+- Baixe as 3 páginas .php desta aula, coloque-as no diretório do servidor (../htdocs) e veja o resultado no servidor
+

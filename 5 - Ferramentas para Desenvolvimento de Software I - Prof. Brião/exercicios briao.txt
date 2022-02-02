@@ -1,0 +1,18 @@
+exercicios briao ferramentas
+
+cat gnu.txt | cut -d" " -f2
+
+ls -l | head (pega as primeiras 10)
+ls -l  tail (pega as ultimas 10)
+
+cat gnu.txt | head -n1 somente a primeira linha
+cat gnu.txt | tail -n1 somente a ultima linha
+
+man awk (escaneia padroes e faz o processamento de linguagem)
+awk -F" " '{n+=$3} END {print n}' gnu.txt soma dos valores da terceira linha
+
+awk -F" " '{n+=$3 ,x=x+1} END {print n/x}' gnu.txt media dos valores da terceira linha
+
+
+todas as palavras que começam com e
+ls | grep "ê"

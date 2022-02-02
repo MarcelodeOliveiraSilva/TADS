@@ -1,0 +1,17 @@
+
+- Criar a classe pessoa(cpf,nome), herdada pelas classes professor(area, telefone) e
+aluno(matricula)
+- criar a class turma(professor, alunos,identificação) 
+- criar get e set para todas propriedades de todas classes e só acessar
+ ou alterar as propriedades através destes métodos
+- criar metodos constructs para todas classes
+- criar o metodo imprime dados na classe turma. Este método imprime todos os dados da 
+turma incluindo os dados do professor e de todos os alunos da turma. 
+
+criar 2 professores
+criar 6 alunos
+-criar 2 turmas de 4 alunos
+- chamar o método imprime dados das duas turmas. A impressão deve ser feita em uma página
+HTML5 padrão com bootstrap. Os dados da turma, professor e alunos devem estar em tabelas
+
+A figura turma.png mostra o diagrama de classe deste exercício

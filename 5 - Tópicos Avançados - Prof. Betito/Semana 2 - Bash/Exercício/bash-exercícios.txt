@@ -1,0 +1,61 @@
+1) Encontrar e excluir, recursivamente, duplicatas de arquivos (nome e/ou conteúdo) a partir de uma pasta informada
+2) Utilizando o arquivo /usr/share/dict/brazilian
+	a) Transliterar o arquivo (á -> a)
+	b) Mostrar palavras duplicadas no arquivo transliterado
+	c) Mostrar as maiores palavras no arquivo transliterado
+	d) Mostrar com quais letras começam as maiores palavras no arquivo transliterado
+	e) Mostrar a quantidade de ocorrências das letras que compõem cada uma das maiores palavras no arquivo transliterado
+
+banana b:1 a:3 n:2
+cabana c:1 a:3 b:1 n:1
+
+3) Utilizando sua agenda de contatos do celular exportada como agenda.vcf
+	a) Trasliterar o arquivo (Jo=C3=A3o -> Joao)
+	b) Formatar nomes para caixa baixa com iniciais em caixa alta, remover espaços desnecessários
+	c) Formatar fixos como "99 9999 9999" e móveis como "99 9 9999 9999"
+	d) Fundir contatos com o mesmo nome
+	e) Remover telefones duplicados em um contato
+	f) Mostrar no formato CSV
+
+"Joao Silva","53 3232 1234","53 9 9123 1234"
+"Pedro Silva","53 3232 2345"
+"Jose Silva","53 9 9123 2345"
+
+	g) Mostrar no formato JSON
+
+[ { nome: "Joao Silva", telefones: [ "53 3232 1234", "53 9 9123 1234" ] }, { nome: "Pedro Silva", telefones: [ "53 3232 2345" ] }, { nome: "Jose Silva", telefones: [ "53 9 9123 2345" ] } ]
+
+	h) Mostrar no formato XML
+
+<contatos><contato><nome>Joao Silva</nome><telefone>53 3232 1234</telefone><telefone>53 9 9123 1234</telefone></contato><contato><nome>Pedro Silva</nome><telefone>53 3232 2345</telefone></contato><contato><nome>Jose Silva</nome><telefone>53 9 9123 2345</telefone></contato></contatos>
+
+4) Utilizando o arquivo Dolar_1994-07-01_2021-02-07.csv
+	a) Mostrar os dias que tiveram mais de uma cotação 
+	b) Mostrar o menor valor de compra em um intervalo de datas informado no padrão ISO 8601
+	c) Mostrar o maior valor de compra em um intervalo de datas informado no padrão ISO 8601
+	d) Mostrar o menor valor de venda em um intervalo de datas informado no padrão ISO 8601
+	e) Mostrar o maior valor de venda em um intervalo de datas informado no padrão ISO 8601
+5) Transformar de JSON para CSV o arquivo Dolar_1994-07-01_2021-02-07.json
+6) Transformar de HTML para CSV o arquivo Dolar_1994-07-01_2021-02-07.html
+7) Transformar de XML para CSV o arquivo Dolar_1994-07-01_2021-02-07.xml
+8) Mostrar um arquivo CSV informado como uma tabela
+* considere que a primeira linha contém o nome de cada coluna
+* considere que a segunda linha contém o alinhamento de cada coluna
+* ajuste o tamanho e o alinhamento do conteúdo de cada célula de acordo com sua coluna
+
+"campo1","campo2","campo3"
+"e","d","c"
+"um texto","1,23","1"
+"outro texto","12,34","12"
+"mais um texto","123,45","123"
+"qualquer texto","1.234,56","1234"
+
++----------------+----------+--------+
+| campo1         | campo2   | campo3 |
++----------------+----------+--------+
+| um texto       |     1,23 |    1   |
+| outro texto    |    12,34 |   12   |
+| mais um texto  |   123,45 |   123  |
+| qualquer texto | 1.234,56 |  1234  |   
++----------------+----------+--------+
+
